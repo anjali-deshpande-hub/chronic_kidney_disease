@@ -30,11 +30,11 @@ In the second team project:
 ### Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
-* Instructor: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
-* TA: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Technical Facilitator: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Learning Support Staff: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
 
 ### Delivery of team project
-There will only be one lecture and that would be the very first day to introduce the team project to everyone. After, it is up to you and your team members to work together to create a project. The instructor and module support staff will be present to assist and check up on progress of work.
+There will only be one lecture and that would be the very first day to introduce the team project to everyone. After, it is up to you and your team members to work together to create a project. The Technical Facilitator and Learning Support Staff will be present to assist and check up on progress of work.
  
 ### Expectations
 Learners are expected to be working their normal synchronous hours along with their team members.
@@ -100,5 +100,5 @@ Learners are expected to be working their normal synchronous hours along with th
 * **Reports:** Generated HTML, PDF etc. of your report
 * **src:** Project source code
 * README: This file!
-* .gitignore: Files to exclude from this folder, specified by the instructor
+* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
