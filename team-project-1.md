@@ -50,7 +50,7 @@ Skills used:
 5. Learn why merge conflicts occurs via this [article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
 6. Have fun and work on it!
 7. Each time you work together, record down what you did using the repository's README under "Logs"
-8. At the end of the week, please record a 3 minutes video as a team:
+8. At the end of the week, please record a 5 minutes video as a team:
     1. What did you learn?
     2. What challenges did you face?
     3. How did you overcome those challenges?

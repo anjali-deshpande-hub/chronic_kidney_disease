@@ -55,7 +55,7 @@ Skills used:
 3. Discuss what data visualization or machine learning model you want to create based on your existing data
 4. Have fun and work on it!
 5. Each time you work together, record down what you did using the repository's README under "Logs"
-6. At the end of the week, please record a 3 minutes video as a team:
+6. At the end of the week, please record a 5 minutes video as a team:
     1. What did you make?
     2. What did you learn?
     3. What challenges did you face?
