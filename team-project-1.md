@@ -37,7 +37,7 @@ Skills used:
 ## Learning Outcomes
 
 * Identify the causes of merge conflicts
-* Solve merge conflicts through the use of rebasing
+* Use rebasing to solve merge conflicts
 * Create a program as a team to analyze a dataset
 
 ## Instructions
@@ -74,7 +74,7 @@ Skills used:
 
 ### Will we be doing everything by ourselves?
 
-Yes! This team project will be done all by you and your team. The instructor will be present however to help when needed, and to check in on your progress of work.
+Yes! This team project will be done all by you and your team. The Technical Facilitator will be present however to help when needed, and to check in on your progress of work.
 
 ### Why are the teams assigned rather than us choosing who to work with?
 
@@ -95,13 +95,13 @@ If someone is taking too slow to respond, try the following:
 
 1. DM them on Slack
 2. Email them
-3. Reach out to the Instructor and let them know of the issues
+3. Reach out to the Technical Facilitator and let them know of the issues
 
 ### Are we supposed to work on the same hours if lectures and office hours were held?
 
 Ideally yes!
 
-### Will the Instructor be checking our work throughout the week?
+### Will the Technical Facilitator be checking our work throughout the week?
 
 Yes! They will be periodically checking your team's work for progress.
 
