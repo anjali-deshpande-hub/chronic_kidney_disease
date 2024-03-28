@@ -14,7 +14,7 @@ Skills used:
 * Git
 * Python
 * SQL
-* Estimation, Machine Learning and Testing
+* Applying Statistical Concepts
 * Production
 * Visualization (Data Science Specialization only)
 * Sampling (Data Science Specialization only)
@@ -55,7 +55,7 @@ Skills used:
 3. Discuss what data visualization or machine learning model you want to create based on your existing data
 4. Have fun and work on it!
 5. Each time you work together, record down what you did using the repository's README under "Logs"
-6. At the end of the week, please record a 3 minutes video as a team:
+6. At the end of the week, please record a 5 minutes video as a team:
     1. What did you make?
     2. What did you learn?
     3. What challenges did you face?
@@ -76,16 +76,16 @@ If someone is taking too slow to respond, try the following:
 
 1.  DM them on Slack
 2.  Email them
-3.  Reach out to the Instructor and let them know of the issues
+3.  Reach out to the Technical Facilitator and let them know of the issues
 
 ### Will we be doing everything by ourselves again?
 
-Yes! This team project will be done all by you and your team. The instructor will be present however to help when needed, and to check in on your progress of work.
+Yes! This team project will be done all by you and your team. The Technical Facilitator will be present however to help when needed, and to check in on your progress of work.
 
 ### Are we supposed to work on the same hours if lectures and office hours were held?
 
 Ideally yes!
 
-### Will the Instructor be checking our work throughout the week?
+### Will the Technical Facilitator be checking our work throughout the week?
 
 Yes! They will be periodically checking your team's work for progress.
