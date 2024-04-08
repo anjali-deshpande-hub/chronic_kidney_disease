@@ -83,7 +83,7 @@ There are a few reasons for why we made the groups than letting you all choose:
 1. There are a lot of you!
 2. Some of you are in the Machine Learning stream, and the rest are in the Data Science stream. We need to organize and group you based on your stream.
 3. Any new company you join, you will likely be working with people you never worked with before.
-4. You get to meet more people in the program!
+4. You get to meet more people in the community!
 
 ### Why do we have to create Rules of Engagement?
 

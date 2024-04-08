@@ -1,7 +1,7 @@
 # Team Project
 
 ## Description
-The team project is broken up into 2 mini-modules. The first team project will be at the halfway mark of the program. There you will be assigned to a team of 4, and you'll collaboratively create a simple program with a database to analyze a dataset from Kaggle or another open-sourced dataset.
+The team project is broken up into 2 mini-modules. The first team project will be at the halfway mark of the certification. There you will be assigned to a team of 4, and you'll collaboratively create a simple program with a database to analyze a dataset from Kaggle or another open-sourced dataset.
 
 In the second team project, you will work with the same team members again, and take your first team project and depending on your stream, you will create a:
 
