@@ -38,7 +38,7 @@ Skills used:
 * How can we select the most relevant features for training our machine learning model?
 * Are there any missing values or outliers that need to be addressed through preprocessing?
 * Which machine learning algorithms are suitable for our problem domain?
-* What techniques can we use to validate and tune hyperparameters for our models?
+* What techniques can we use to validate and tune the hyperparameters for our models?
 * How should we split the dataset into training, validation, and test sets?
 * Are there any ethical implications or biases associated with our machine learning model?
 * How can we document our machine learning pipeline and model architecture for future reference?
