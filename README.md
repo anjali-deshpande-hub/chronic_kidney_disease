@@ -42,13 +42,6 @@ There will only be one lecture and that would be the very first day to introduce
  
 ### Expectations
 Learners are expected to be working their normal synchronous hours along with their team members.
-
-## Policies
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
-* **Module communications:** Communications take place over email or on Slack.
-* **Camera:** Keeping your camera on is optional.
-* **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
-* **Assessment:** You will be assessed on the individual progress of your work on the project.
  
 ## Requirements
 * Learners are not expected to have any coding experience, we designed the learning content for beginners.
