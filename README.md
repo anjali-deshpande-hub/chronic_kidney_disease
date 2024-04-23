@@ -49,7 +49,7 @@ Learners are expected to be working their normal synchronous hours along with th
 * Learners must have a computer and an internet connection to participate in online activities.
 * Learners are expected to follow along with the coding.
 * Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
 * Webcam usage is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Lesson Schedule
