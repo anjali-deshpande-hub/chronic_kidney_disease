@@ -1,34 +1,27 @@
 # Team Project
 
 ## Description
-The team project is broken up into 2 mini-modules. The first team project will be at the halfway mark of the certification. There you will be assigned to a team of 4, and you'll collaboratively create a simple program with a database to analyze a dataset from Kaggle or another open-sourced dataset.
+The team project consists of two modules. Each module requires participants to apply the skills they have learned to date, and explore a dataset of their choosing. The first part of the team project involves creating a simple program with a database in order to analyze a dataset from an open source, such as Kaggle. In the second part of the team project, teams will come together again and apply the skills developed in each of the data science or machine learning foundations certificate streams. Teams will either create a data visualization or a machine learning model.
 
-In the second team project, you will work with the same team members again, and take your first team project and depending on your stream, you will create a:
+Participants will work in assigned teams of 4. 
 
-1. Data visualization
-2. Machine Learning Model
+#### Project Descriptions
 
-This project will be used as part of your portfolio!
-
-#### Project Description
-
-* [First Team Project Description](./team-project-1.md)
-* [Second Team Project Description](./team-project-2.md)
+* [First Team Project Description](./team_project_1.md)
+* [Second Team Project Description](./team_project_2.md)
 
 ## Learning Outcomes
-In the first team project:
+By the end of Team Project Module 1, participants will be able to:
 * Identify the causes of merge conflicts
-* Solve merge conflicts through the use of rebasing
+* Use rebasing to solve merge conflicts
 * Create a program as a team to analyze a dataset
 
-In the second team project:
+By the end of Team Project Module 2, participants will be able to:
 * Create a data visualization as a team
 * Create a machine learning model as a team
 
-## Logistics
-
-### Module Contacts
-**Questions can be submitted to the #questions channel on Slack**
+### Contacts
+**Questions can be submitted to the _#cohort-3-help_ channel on Slack**
 
 * Technical Facilitator: 
   * name and pronouns: `<Name>`, `<Pronouns>` 
@@ -37,26 +30,25 @@ In the second team project:
   * name and pronouns: `<Name>`, `<Pronouns>` 
   * email: `<first_name.last_name@mail.ca>`
 
-### Delivery of team project
-There will only be one lecture and that would be the very first day to introduce the team project to everyone. After, it is up to you and your team members to work together to create a project. The Technical Facilitator and Learning Support Staff will be present to assist and check up on the progress of work.
- 
-### Expectations
-Learners are expected to be working their normal synchronous hours along with their team members.
- 
-## Requirements
-* Learners are not expected to have any coding experience, we designed the learning content for beginners.
-* Learners are encouraged to ask questions and collaborate with others to enhance learning.
-* Learners must have a computer and an internet connection to participate in online activities.
-* Learners are expected to follow along with the coding.
-* Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
-* Webcam usage is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+### Delivery of Team Project Modules
 
-### Lesson Schedule
+Each Team Project module will include two live learning sessions and one case study presentation. During live learning sessions, facilitators will introduce the project, walk through relevant examples, and introduce various team skills that support project success. The remaining time will be used for teams to assemble and work on their projects, as well as get help from the facilitator or the learning support to troubleshoot any issues a team may be encountering. 
+
+Work periods will also be used as opportunities for teams to collaborate and work together, while accessing learning support. 
+
+### Schedule
 
 |Day 1|Day 2|Day 3|Day 4|Day 5|
 |-----|-----|-----|-----|-----|
-|Lecture|Work Period 1|Work Period 2|Work Period 3|Work Period 4|
+|Live Learning Session |Live Learning Session|Case Study|Work Period|Work Period|
+
+## Requirements
+* Participants are expected to attend live learning sessions and the case study as part of the learning experience. Participants are encouraged to use the scheduled work period time to complete their projects.
+* Participants are encouraged to ask questions and collaborate with others to enhance learning.
+* Participants must have a computer and an internet connection to participate in online activities.
+* Participants must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
+* We expect participants to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
+* We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ### How to get help
 ![image](/steps-to-ask-for-help.png)
