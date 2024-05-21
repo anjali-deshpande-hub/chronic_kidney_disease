@@ -2,59 +2,70 @@
 
 ## Description
 
-In your assigned team of 4, you'll collaboratively create a simple program with a database to analyze a dataset from [Kaggle](https://www.kaggle.com/datasets) or another open-sourced dataset. For example, your team might choose to analyze the overall feedback given by customers for an airline.
+In your assigned team of 4, you'll collaboratively create a program with a database to analyze data from an open-sourced dataset. 
 
-Every team member will contribute to the project equally and overcome challenges together. For example, one of the challenges you will face is resolving merge conflicts due to conflicting changes.
+For example, your team might wish to examine the relationship between the length of a movie and the ratings users give the movie on a popular website. Or you may wish to explore the relationship between the size of a dog breed and the associated genetic ailments of that breed. Teams are encouraged to pick a dataset that interests you, and is robust enough that you have flexibility to practice your skills. 
 
-This project will be used as part of your portfolio, and will also foster collaboration, innovation, and problem-solving skills essential for success in the ever-evolving field of data science and machine learning.
+The task in front of your team is deliberately open-ended. Your team will have to make decisions together:
+* How will you select your dataset?
+* How will you make sure all team members have an opportunity to contribute to the project?
+* How will you make decisions?
+* What is the question you're trying to answer through your data analysis?
+* What are all of the tasks that need to be completed to get to your final output?
+
+At the end of the module, all team members are encouraged to fork the repo onto their profile so that prospective employers can view the project on all of your profiles. 
 
 Datasets you can use:
-
+* [Kaggle](https://www.kaggle.com/datasets)
 * [collections (datahub.io)](https://datahub.io/collections)
 * [Dataset Search (google.com)](https://datasetsearch.research.google.com/)
 * [Data.gov Home - Data.gov](https://data.gov/) (US)
 * [Datasets and Portals (science.gc.ca)](https://science.gc.ca/site/science/en/open-science/datasets-and-portals)
 * [Welcome - Ontario Data Catalogue](https://data.ontario.ca/)
 
-If you have another dataset resource you would like to use, reach out to the DSI team via the #question channel on Slack.
-
-Skills used:
+This project applies skills from the following previous modules:
 
 * Shell
 * Git
 * Python
 * SQL
-* Estimation, Machine Learning and Testing
-
-## Guiding Questions
-
-* What are the key variables and attributes in our dataset?
-* How can we explore the relationships between different variables?
-* Are there any patterns or trends in the data that we can identify?
-* Who is the intended audience for our data analytic?
-* Are there any specific libraries or frameworks that are well-suited to our project requirements?
+* Applying Statistical Concepts
 
 ## Learning Outcomes
-
-* Identify the causes of merge conflicts
-* Use rebasing to solve merge conflicts
-* Create a program as a team to analyze a dataset
+By the end of team project, participants will be able to:
+* Resolve merge conflicts
+* Describe common problems or challenges a team encounters when working collaboratively in GitHub
+* Create a program to analyze a dataset with contributions from multiple team members
 
 ## Instructions
 
-1. Discuss with your team, what you all would like to create. Explore [Kaggle](https://www.kaggle.com/datasets) for some ideas using their dataset
-    1. What is the primary focus within the dataset on what you want to analyze?
-2. Create rules of engagements as a team (this is to help prevent potential issues down the road) (Examples can be found under Resources)
-3. One person on your team will create a copy of this template repository via GitHub Classroom
-4. Work on the "Advanced Topic" of [LearnGitBranching](https://learngitbranching.js.org/) to learn more about rebasing
-5. Learn why merge conflicts occurs via this [article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
-6. Have fun and work on it!
-7. Each time you work together, record down what you did using the repository's README under "Logs"
-8. At the end of the week, please record a 5 minutes video as a team:
+1. Explore the open source datasets above.
+2. As a team, decide which dataset you would like to analyze and determine:
+    1. What is the primary focus within the dataset?
+    2. What are potential relationships in the data that you could explore?
+    3. What are key questions your project could answer? 
+3. Create rules of engagement to guide how your team will work together (Examples can be found under Resources).
+4. Create a new repository for your project. Hint: this repo has some features commonly found in industry repos. 
+5. Work on the "Advanced Topics" section of [LearnGitBranching](https://learngitbranching.js.org/) to learn more about rebasing
+6. Learn why merge conflicts occur via this [article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
+7. Determine what roles the various team members will play on the team, which tasks need to be completed and assigned to which team members, and what your team norms will be with respect to code reviews, approvals and merges. 
+8. Each time you work on the project, add a log to the repository's README indicating what was accomplished. 
+9. At the end of the week, please record a 3-5 minute video individually that answers the following questions:
     1. What did you learn?
     2. What challenges did you face?
     3. How did you overcome those challenges?
-    4. What future expansions would you like to add if you got more time to work on it?
+    4. IF you had more time to complete your project, what would you add to it?
+    5. What strengths do you bring to a team work environment?
+10. Have fun! This project is yours. This is the time to create something that prospective employers can consider when reviewing your application for a role. What will your project tell them about you, your skills and your ability to work effectively on a team. 
+  
+## Questions to discuss when reviewing your dataset
+
+* What are the key variables and attributes in your dataset?
+* How can we explore the relationships between different variables?
+* Are there any patterns or trends in the data that we can identify?
+* Who is the intended audience for our data analysis?
+* What is the question our analysis is trying to answer?
+* Are there any specific libraries or frameworks that are well-suited to our project requirements?
 
 ## Resources
 
@@ -69,42 +80,3 @@ Skills used:
 * [8 Ground Rules for Great Meetings (hbr.org)](https://hbr.org/2016/06/8-ground-rules-for-great-meetings)
 * [16 Ground Rules for Group Work | Facilitator School](https://www.facilitator.school/ground-rules/ground-rules-for-group-work)
 * [Chapter 8 Working in Teams | Research Software Engineering with Python (third-bit.com)](https://third-bit.com/py-rse/teams.html#teams-coc)
-
-## FAQs
-
-### Will we be doing everything by ourselves?
-
-Yes! This team project will be done all by you and your team. The Technical Facilitator will be present however to help when needed, and to check in on your progress of work.
-
-### Why are the teams assigned rather than us choosing who to work with?
-
-There are a few reasons for why we made the groups than letting you all choose:
-
-1. There are a lot of you!
-2. Some of you are in the Machine Learning stream, and the rest are in the Data Science stream. We need to organize and group you based on your stream.
-3. Any new company you join, you will likely be working with people you never worked with before.
-4. You get to meet more people in the community!
-
-### Why do we have to create Rules of Engagement?
-
-Every team needs Rules of Engagement, so every team member is aware of how to work well with each other, and how to resolve team conflict if it ever arises.
-
-### A member is not contributing or taking too long to respond! What should I do?
-
-If someone is taking too slow to respond, try the following:
-
-1. DM them on Slack
-2. Email them
-3. Reach out to the Technical Facilitator and let them know of the issues
-
-### Are we supposed to work on the same hours if lectures and office hours were held?
-
-Ideally yes!
-
-### Will the Technical Facilitator be checking our work throughout the week?
-
-Yes! They will be periodically checking your team's work for progress.
-
-### Will we be using this project in Team Project #2?
-
-Yes! We will be working together again and expanding on the project.
