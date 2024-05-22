@@ -1,4 +1,4 @@
-# Team Project #1
+# Team Project Part 1
 
 ## Description
 
