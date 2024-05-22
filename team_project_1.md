@@ -8,12 +8,12 @@ For example, your team might wish to examine the relationship between the length
 
 The task in front of your team is deliberately open-ended. Your team will have to make decisions together:
 * How will you select your dataset?
-* How will you make sure all team members have an opportunity to contribute to the project?
+* How will you make sure all team members can contribute to the project?
 * How will you make decisions?
 * What is the question you're trying to answer through your data analysis?
-* What are all of the tasks that need to be completed to get to your final output?
+* What tasks need to be completed to get to your final output?
 
-At the end of the module, all team members are encouraged to fork the repo onto their profile so that prospective employers can view the project on all of your profiles. 
+At the end of the module, all team members are encouraged to fork the repo onto their profile so that prospective employers can view the project. 
 
 Datasets you can use:
 * [Kaggle](https://www.kaggle.com/datasets)
@@ -23,13 +23,16 @@ Datasets you can use:
 * [Datasets and Portals (science.gc.ca)](https://science.gc.ca/site/science/en/open-science/datasets-and-portals)
 * [Welcome - Ontario Data Catalogue](https://data.ontario.ca/)
 
+The Technical Facilitator will deliver brief learning sessions on the following topics:
+
+* GitHub and coding best practices when working in a team  
+* How to communicate the value and impact of their work
+  
 This project applies skills from the following previous modules:
 
-* Shell
-* Git
-* Python
-* SQL
-* Applying Statistical Concepts
+* Introduction to Building Software (Git, Shell & Python) 
+* SQL 
+* Applying Statistical Concepts (Linear regression, classification, and resampling) 
 
 ## Learning Outcomes
 By the end of team project, participants will be able to:
@@ -54,7 +57,7 @@ By the end of team project, participants will be able to:
     1. What did you learn?
     2. What challenges did you face?
     3. How did you overcome those challenges?
-    4. IF you had more time to complete your project, what would you add to it?
+    4. If you had more time to complete your project, what would you add to it?
     5. What strengths do you bring to a team work environment?
 10. Have fun! This project is yours. This is the time to create something that prospective employers can consider when reviewing your application for a role. What will your project tell them about you, your skills and your ability to work effectively on a team. 
   
@@ -66,6 +69,13 @@ By the end of team project, participants will be able to:
 * Who is the intended audience for our data analysis?
 * What is the question our analysis is trying to answer?
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?
+
+## Requirements 
+* Each team member must create, review, and merge a pull request 
+* Each team member must contribute to the repository’s log 
+* Each project must design, implement, and test regression 
+* Each team must create Rules of Engagement 
+* Each team member must create a video about their learnings and experience 
 
 ## Resources
 
