@@ -37,7 +37,7 @@ This project applies skills from the following previous modules:
 ## Learning Outcomes
 By the end of team project, participants will be able to:
 * Resolve merge conflicts
-* Describe common problems or challenges a team encounters when working collaboratively in GitHub
+* Describe common problems or challenges a team encounters when working collaboratively using Git and GitHub
 * Create a program to analyze a dataset with contributions from multiple team members
 
 ## Instructions
@@ -47,7 +47,7 @@ By the end of team project, participants will be able to:
     1. What is the primary focus within the dataset?
     2. What are potential relationships in the data that you could explore?
     3. What are key questions your project could answer? 
-3. Create rules of engagement to guide how your team will work together (Examples can be found under Resources).
+3. Create rules of engagement to guide how your team will work together (Examples can be found below under [Resources](https://github.com/UofT-DSI/team_project/edit/main/team_project_1.md#resources).
 4. Create a new repository for your project. Hint: this repo has some features commonly found in industry repos. 
 5. Work on the "Advanced Topics" section of [LearnGitBranching](https://learngitbranching.js.org/) to learn more about rebasing
 6. Learn why merge conflicts occur via this [article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
@@ -72,9 +72,9 @@ By the end of team project, participants will be able to:
 
 ## Requirements 
 * Each team member must create, review, and merge a pull request 
-* Each team member must contribute to the repository’s log 
-* Each project must design, implement, and test regression 
-* Each team must create Rules of Engagement 
+* Each team member must write one PR description
+* Each project must design, implement, and test regression
+* Each team must create a README that explains the project, how the team approached their project, and any relevant details to their team project, including the team's Rules of Engagement. Keep in mind that the repo will be on each team member's profile, so be thoughtful about the details you include here. 
 * Each team member must create a video about their learnings and experience 
 
 ## Resources
