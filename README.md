@@ -12,9 +12,9 @@ Participants will work in assigned teams of 4.
 
 ## Learning Outcomes
 By the end of Team Project Module 1, participants will be able to:
-* Identify the causes of merge conflicts
-* Use rebasing to solve merge conflicts
-* Create a program as a team to analyze a dataset
+* Resolve merge conflicts
+* Describe common problems or challenges a team encounters when working collaboratively using Git and GitHub
+* Create a program to analyze a dataset with contributions from multiple team members
 
 By the end of Team Project Module 2, participants will be able to:
 * Create a data visualization as a team
