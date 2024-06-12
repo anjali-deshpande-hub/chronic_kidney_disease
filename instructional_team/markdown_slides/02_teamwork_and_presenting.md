@@ -38,7 +38,7 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
-### See repository for requirements.
+### See [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) for requirements.
 
 ---
 
@@ -46,7 +46,15 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
-![w:1200 center](./images/business_data_context.png) 
+
+
+##### How can we get the most value out of our data, and use it to better inform business decisions?
+
+* We want these contexts to overlap!
+
+![w:600 center](./images/business_data_context.png)
+
+
 
 ---
 ## Developing a project plan
@@ -151,13 +159,23 @@ Would the others on your team agree with you?
 
 ## Prioritization
 
-![w:1000 center](./images/rice.png) 
+Many different frameworks exist.
+
+The **RICE** prioritization framework is an example, in which we try to quantify the:
+1. Reach of a project (how many people it will affect).
+2. The impact that it will have.
+3. The confidence that we have in our ability to deliver.
+4. The effort that it will take.
+
+![bg right contain](./images/rice.png)
 
 --- 
 
 ## Prioritization
 
-![w:1000 center](./images/prioritization_matrix.png) 
+It is important to limit unimportant "busy work"; we want to be working on projects that will deliver the most long-term value.
+
+![w:600 center](./images/prioritization_matrix.png) 
 
 ---
 
@@ -186,6 +204,21 @@ Would the others on your team agree with you?
 * Make sure your audience understands the most important information.
 
 * Don't add unnecessary detail, but be prepared to speak in depth if asked.
+
+--- 
+
+## 2. Clearly articulate the takeaways
+
+### Tips for Amazon Writers:
+
+1. Make sentences clear and concise (less than 30 words).
+    * "Due to the fact that..." -> "because".
+2. Replace adjectives with data.
+    * "We improved performance" -> "we reduced latency from 10ms to 1ms."
+3. Eliminate weasel words.
+    * "Nearly all customers." -> "87% of Amazon Prime members."
+4. Reply to questions with one of four "Amazon answers":
+    * Yes / No / a number / I don't know (and will follow up when I do)
 
 ---
 

@@ -13,4 +13,4 @@ $ echo "Data Sciences Institute"
 
 # CASE STUDY
 
-### Led by Nicholas Mitsakakis.
+### Led by Dr. Nicholas Mitsakakis.

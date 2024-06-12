@@ -71,11 +71,11 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ### Submission
 
-* Each team must fork the `team_project` Git repository.
+* **One** person from each team must fork the [`team_project`](https://github.com/UofT-DSI/team_project) Git repository. Other team members should clone the forked repository.
 
 * The folder structure of your forked repository may be modified to suit your needs.
 
-* PRs must be submitted to your forked repository, **NOT** to the DSI repository.
+* Follow the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) to submit your team project when it is completed. The branch you merge to the **main** branch of your forked repository (**NOT** to the DSI repository) should be called `team-project-1`.
 
 ---
 
@@ -87,7 +87,88 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
-![w:1200 center](./images/business_data_context.png) 
+##### How can we get the most value out of our data, and use it to better inform business decisions?
+
+* We want these contexts to overlap!
+
+![w:600 center](./images/business_data_context.png)
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**A "meta-model of ignorance" that can help us put the unknowns of projects into context.**
+
+0. Zeroth Order Ignorance (0OI): Lack of Ignorance
+1. First Order Ignorance (1OI): Lack of Knowledge
+2. Second Order Ignorance (2OI): Lack of Awareness
+3. Third Order Ignorance (3OI): Lack of Process
+4. Fourth Order Ignorance (4OI): Meta Ignorance
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**0. Zeroth Order Ignorance (0OI): Lack of Ignorance**
+
+* You provably know something
+* The ability to prove it is necessary
+
+___I know how many departments my company has.___ 
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**1. First Order Ignorance (1OI): Lack of Knowledge**
+
+* You know that you do not know something
+* "Acknowledged ignorance"
+
+___I know that I don't know how many people work for my company.___ 
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**Second Order Ignorance (2OI): Lack of Awareness**
+
+* You do not know that you do not know something
+* Metacognition: awareness of what you know and don't know
+* This is what we try to eliminate as we work through projects
+
+___I don't know that I don't know that my company is about to acquire another company.___ 
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**Third Order Ignorance (3OI): Lack of Process**
+
+* You do not know of a suitably effective way to find out that you don’t know that you don’t know something
+* This may result in a knowledge trap
+* Finding ways to escape from this quickly is critical
+* Escaping from this is an important function of software testing: showing areas where you lack knowledge
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**Fourth Order Ignorance (4OI): Meta Ignorance**
+
+* You do not know about the Five Orders of Ignorance
+* Fundamental ignorance of ignorance
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**A "meta-model of ignorance" that can help us put the unknowns of projects into context.**
+
+* The goal is to move down the ladder to 0OI
+* Most production energy should be spent on 2OI
+* Most process energy should be spent on 3OI
+
 
 ---
 
