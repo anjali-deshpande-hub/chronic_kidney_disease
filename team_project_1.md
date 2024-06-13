@@ -4,7 +4,7 @@
 
 In your assigned team of 4, you'll collaboratively create a program with a database to analyze data from an open-sourced dataset. 
 
-For example, your team might wish to examine the relationship between the length of a movie and the ratings users give the movie on a popular website. Or you may wish to explore the relationship between the size of a dog breed and the associated genetic ailments of that breed. Teams are encouraged to pick a dataset that interests you, and is robust enough that you have flexibility to practice your skills. 
+For example, your team might wish to examine the relationship between the length of a movie and the ratings users give the movie on a popular website. Or you may wish to explore the relationship between the size of a dog breed and the associated genetic ailments of that breed. Teams are encouraged to pick a dataset that interests you, is robust enough that you have flexibility to practice your skills, and that is well-suited for showcasing business impact.
 
 The task in front of your team is deliberately open-ended. Your team will have to make decisions together:
 * How will you select your dataset?
@@ -52,14 +52,13 @@ By the end of team project, participants will be able to:
 5. Work on the "Advanced Topics" section of [LearnGitBranching](https://learngitbranching.js.org/) to learn more about rebasing
 6. Learn why merge conflicts occur via this [article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Understanding%20merge%20conflicts,automatically%20determine%20what%20is%20correct.)
 7. Determine what roles the various team members will play on the team, which tasks need to be completed and assigned to which team members, and what your team norms will be with respect to code reviews, approvals and merges. 
-8. Each time you work on the project, add a log to the repository's README indicating what was accomplished. 
-9. At the end of the week, please record a 3-5 minute video individually that answers the following questions:
+8. At the end of the week, please record a 3-5 minute video individually that answers the following questions:
     1. What did you learn?
     2. What challenges did you face?
     3. How did you overcome those challenges?
     4. If you had more time to complete your project, what would you add to it?
     5. What strengths do you bring to a team work environment?
-10. Have fun! This project is yours. This is the time to create something that prospective employers can consider when reviewing your application for a role. What will your project tell them about you, your skills and your ability to work effectively on a team. 
+9. Have fun! This project is yours. This is the time to create something that prospective employers can consider when reviewing your application for a role, so be sure to clearly demonstrate the business value that your project could provide. What will your project tell them about you, your skills and your ability to work effectively on a team. 
   
 ## Questions to discuss when reviewing your dataset
 
