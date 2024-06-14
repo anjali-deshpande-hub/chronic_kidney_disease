@@ -85,97 +85,9 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ## Today
 
-1. Rules of engagement and strategies for effective teamwork
+1. Presenting your work and sharing it with others
 
-2. Presenting your work and sharing it with others
-
----
-
-### Think about: how did yesterday go?
-
-Do you think your team functioned well?
-
-What could be improved?
-
-Would the others on your team agree with you?
-
----
-
-## Rules of engagement
-
-* Every time will land on slight different rules of engagement!
-
-* The key is to be aware of what works and what doesn't, and adjust accordingly.
-
----
-
-## Rules of engagement
-
-* However, **rules must be explicit**.
-
-* Miscommunication happens when rules are left up to individual interpretation.
-
----
-
-## Rules of engagement
-
-### Successful teams:
-
-1. Have strong communication.
-
-2. Have a clear undertanding of everyone's role on the team.
-
-3. Work collaboratively towards a common goal.
-
----
-
-![w:1200 center](./images/rules_of_engagement.png) 
-
----
-## Communication and feedback
-
-1. **Feedback as a habit**. A feedback framework helps teams focus on improving processes instead of laying blame.
-
-2. **Respectful and honest communication**. 
-
-
----
-
-## A self-organizing team
-
-1. **Clear accountability and ownership of tasks**. Every action item should have someone assigned. Of course, the assigned person can change if workloads become unbalanced.
-
-2. **Be solution-oriented**. Instead of only presenting problems, try to always suggest a possible solution along with a problem.
-
----
-
-## Clear tracking of progress
-
-1. **Detailed tracking of roadblocks**. It is just as important to communicate roadblocks and failures as successes. The faster problems are identified, the faster they can be addressed.
-2. **Use software and/or documentation to help track tasks**.
-
-
---- 
-
-## Prioritization
-
-Many different frameworks exist.
-
-The **RICE** prioritization framework is an example, in which we try to quantify the:
-1. Reach of a project (how many people it will affect).
-2. The impact that it will have.
-3. The confidence that we have in our ability to deliver.
-4. The effort that it will take.
-
-![bg right contain](./images/rice.png)
-
---- 
-
-## Prioritization
-
-It is important to limit unimportant "busy work"; we want to be working on projects that will deliver the most long-term value.
-
-![w:600 center](./images/prioritization_matrix.png) 
+2. Rules of engagement and strategies for effective teamwork
 
 ---
 
@@ -239,3 +151,140 @@ It is important to limit unimportant "busy work"; we want to be working on proje
 ## 3. Highlight the value added
 
 **Example:** Updating the office spaces would add 5% to our real estate costs over the next year, but would save 10% per year once the new seating is implemented.
+
+---
+# Rules of engagement and strategies for effective teamwork
+---
+
+### Think about: how did yesterday go?
+
+Do you think your team functioned well?
+
+What could be improved?
+
+Would the others on your team agree with you?
+
+---
+
+## Rules of engagement
+
+### Successful teams:
+
+1. Have strong communication.
+
+2. Have a clear undertanding of everyone's role on the team.
+
+3. Work collaboratively towards a common goal.
+
+---
+
+## Rules of engagement
+
+* Every time will land on slight different rules of engagement!
+
+* The key is to be aware of what works and what doesn't, and adjust accordingly.
+
+---
+
+## Rules of engagement
+
+* However, **rules must be explicit**.
+
+* Miscommunication happens when rules are left up to individual interpretation.
+
+---
+
+![w:1200 center](./images/rules_of_engagement.png) 
+
+---
+## Communication and feedback
+
+1. **Feedback as a habit**. A feedback framework helps teams focus on improving processes instead of laying blame.
+
+2. **Respectful and honest communication**. For discussions to be productive, team members must feel able to both speak their minds and discuss their mistakes without judgement.
+
+
+---
+
+## A self-organizing team
+
+1. **Clear accountability and ownership of tasks**. Every action item should have someone assigned. Of course, the assigned person can change if workloads become unbalanced.
+
+2. **Be solution-oriented**. Instead of only presenting problems, try to always suggest a possible solution along with a problem.
+
+---
+
+## Clear tracking of progress
+
+1. **Communication of roadblocks**. It is just as important to communicate roadblocks and failures as successes. The faster problems are identified, the faster they can be addressed.
+
+2. **Track all of your tasks**. Tracking is necessary to objectively assess your progress as a team. The data-driven mindset applies here too!
+
+3. **Documentation of work**. The level and type of documentation should be agree upon as a team, and included in the rules of engagement. Team members should be able to understand and continue each others' work.
+
+
+--- 
+
+## Prioritization
+
+Many different frameworks exist.
+
+The **RICE** prioritization framework is an example, in which we try to quantify the:
+1. Reach of a project (how many people it will affect).
+2. The impact that it will have.
+3. The confidence that we have in our ability to deliver.
+4. The effort that it will take.
+
+![bg right contain](./images/rice.png)
+
+--- 
+
+## Prioritization
+
+### Example
+
+**Reach:** Our project will affect the real estate costs of the entire company, however real estate costs are only 5% of the company's overhead costs. 3/5.
+
+**Impact:** This project has the potential to reduce real estate costs by a significant fraction. 4/5.
+
+![bg right contain](./images/rice.png)
+
+--- 
+## Prioritization
+
+### Example
+
+**Confidence:** Prior to starting this project, we have anecdotally seen how office space is used, however we are unsure of the specific usage metrics. We're also unsure whether we can accurately get the data on how frequently individuals or teams use office space. 2/5.
+
+![bg right contain](./images/rice.png)
+
+---
+
+## Prioritization
+
+### Example
+
+**Effort:** Integrating internal company data will be challenging, but the number of datasets and systems should not be large. Analyzing against standard office costs, renovation costs, and floor capacities will be more complex. 4/5.
+
+![bg right contain](./images/rice.png)
+
+---
+
+## Prioritization
+
+### Example
+
+
+**TOTAL SCORE:** 3 x 4 x 2 / 4 = **6**
+
+_It is important to set a relative scale for these numbers._
+
+![bg right contain](./images/rice.png)
+
+---
+
+## Prioritization
+
+It is important to limit unimportant "busy work"; we want to be working on projects that will deliver the most long-term value.
+
+![w:600 center](./images/prioritization_matrix.png) 

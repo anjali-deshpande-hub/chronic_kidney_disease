@@ -247,17 +247,21 @@ We can compare the available office space to the space being used under a variet
 
 ## 5. Present results and recommendations.
 
-Follow-up studies?
+1. Know your audience.
 
-Implementable changes (if applicable)?
+2. Clearly articulate the takeaways.
+
+3. Highlight the value added.
 
 ---
 
 ## 5. Present results and recommendations.
 
-Follow-up studies?
+1. Know your audience.
 
-Implementable changes (if applicable)?
+2. Clearly articulate the takeaways.
+
+3. Highlight the value added.
 
 **Example:** Perhaps designated work-from-home days per team would help. Perhaps it would make more sense to have less overall office space but more efficient use.
 
