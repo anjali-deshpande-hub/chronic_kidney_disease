@@ -87,13 +87,13 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
-### How do we enable informed decision making?
+### How do we create business value?
+* We want to allocate our resources (eg. money, employees) in the way that generates the most value.
+    * How do we enable the decision makers?
 
-Motivation:
-* Strategic decisions should be based on data.
-* Our data should add business value: *data with a purpose*.
+*Strategic decisions should be based on data!*
 
-![w:600 center](./images/business_data_context.png)
+![w:700 center](./images/business_data_context.png)
 
 ---
 
