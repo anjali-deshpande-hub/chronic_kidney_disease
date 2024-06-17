@@ -13,15 +13,15 @@ $ echo "Data Sciences Institute"
 
 ## Today
 
-1. Team Project guidelines
+1. Team Project Guidelines
 
-2. Developing a project plan
+2. Developing a Project Plan
 
-3. Git review
+3. Git Review: Resolving Merge Conflicts
 
 ---
 
-# Team Project: Overview
+# Team Project Guidelines
 
 ---
 
@@ -83,15 +83,17 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
-# Developing a project plan
+# Developing a Project Plan
 
 ---
 
-##### How can we get the most value out of our data, and use it to better inform business decisions?
+### How do we create business value?
+* We want to allocate our resources (eg. money, employees) in the way that generates the most value.
+    * How do we enable the decision makers?
 
-* We want these contexts to overlap!
+*Strategic decisions should be based on data!*
 
-![w:600 center](./images/business_data_context.png)
+![w:700 center](./images/business_data_context.png)
 
 ---
 
@@ -114,8 +116,6 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 * You provably know something
 * The ability to prove it is necessary
 
-___I know how many departments my company has.___ 
-
 ---
 
 ## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
@@ -124,8 +124,6 @@ ___I know how many departments my company has.___
 
 * You know that you do not know something
 * "Acknowledged ignorance"
-
-___I know that I don't know how many people work for my company.___ 
 
 ---
 
@@ -136,8 +134,6 @@ ___I know that I don't know how many people work for my company.___
 * You do not know that you do not know something
 * Metacognition: awareness of what you know and don't know
 * This is what we try to eliminate as we work through projects
-
-___I don't know that I don't know that my company is about to acquire another company.___ 
 
 ---
 
@@ -165,12 +161,69 @@ ___I don't know that I don't know that my company is about to acquire another co
 
 **A "meta-model of ignorance" that can help us put the unknowns of projects into context.**
 
-* The goal is to move down the ladder to 0OI
-* Most production energy should be spent on 2OI
-* Most process energy should be spent on 3OI
+* The goal is to move down the ladder to 0OI.
+* 2OI and 3OI is where we should be spending most of our production energy.
 
 
 ---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**0. Zeroth Order Ignorance (0OI): Lack of Ignorance**
+
+* You know there is a door.
+* You know where the door is.
+* You can see the path to the door clearly.
+
+![bg right contain](./images/0OI.jpg)
+
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**1. First Order Ignorance (1OI): Lack of Knowledge**
+
+* You know there is a door.
+* You do not know the path to the door, but you know you can find the path with a tool that you have (eg. a flashlight).
+
+![bg right contain](./images/1OI.jpg)
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**Second Order Ignorance (2OI): Lack of Awareness**
+
+* You know there is a door, but you do not know how to get to it or where to start looking.
+
+![bg right contain](./images/2OI.jpg)
+
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**Third Order Ignorance (3OI): Lack of Process**
+
+* You know you are in a room, but don't know if there is any way out.
+
+![bg right contain](./images/3OI.jpg)
+
+
+---
+
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**Fourth Order Ignorance (4OI): Meta Ignorance**
+
+* Complete and utter darkness.
+
+![bg right contain](./images/4OI.jpg)
+
+---
+
+# Developing a project plan
 
 ## 1. Understand the business context
 
@@ -180,86 +233,92 @@ What are companies or organizations in your industry trying to achieve? What is 
 
 ## 1. Understand the business context
 
-What are companies or organizations in your industry trying to achieve? What is your organization trying to achieve?
+* What are companies or organizations in your industry trying to achieve?
+* What is your organization trying to achieve?
+* Align your goals with company values.
 
-**Example:** We work in finance. Our company is trying to reduce overhead costs.
+~~**Bad Example:** We work in finance. Our company wants to make more money so we should spent half of our working days coming up with a side hustle that our company can implement.~~
 
----
-
-## 2. Identify an opportunity
-
-Where can you add business value by enabling better informed decisions?
+**Good Example:** We work in finance. Our team is not client facing and does not impact revenue directly, but our department manages overhead costs for the company and we can help try to reduce those costs.
 
 ---
 
 ## 2. Identify an opportunity
 
-Where can you add business value by enabling better informed decisions?
+* Where can you add business value?
+* How do you enable informed decision making?
 
-**Example:** We notice that office space appears to be under-utilized. We want to explore the idea of reducing office space while maintaining the same level of productivity and comfort for employees.
+---
+
+## 2. Identify an opportunity
+
+* Where can you add business value?
+* How do you enable informed decision making?
+
+~~**Bad Example:** We see that employees in the Sales Department only work from the office about half the time. Therefore we should cut their office space in half and leave every other team's space as is.~~
+
+**Good Example:** We hypthesize that office space is under-utilized, or not utilized as efficiently as it good be. We want to explore the idea of reducing overall office space while maintaining the same level of productivity and comfort for employees.
 
 ---
 
 ## 3. Scope your analysis
 
-What data do you need?
-
-Do you have the resources to acquire additional data?
+* What data do you need?
+* Do you have the resources to acquire additional data?
 
 ---
 
 ## 3. Scope your analysis
 
-What data do you need?
+* What data do you need?
+* Do you have the resources to acquire additional data?
 
-Do you have the resources to acquire additional data?
+~~**Bad Example:** We should interview everyone to get their opinions on how office space is utilized.~~
 
-**Example:** We want to explore the data on:
+**Good Example:** We want to explore the data on:
 
 1. How often employees work from the office vs. work from home.
 2. Whether teams tend to all work in the office on the same days.
-3. The cost to acquire new office spaces.
-4. The cost to modify existing office spaces.
-5. Whether public transit conditions affect employees' choice of work location.
-6. How our rate of working remotely compares with other companies and other industries.
+3. The cost to acquire new office spaces vs. modifying existing ones.
+4. How our rate of working remotely compares with other companies and other industries.
 
 ---
 
 ## 4. Develop your solution
 
-1. Integrate your data.
-
-2. What are the key findings?
+* Integrate your data.
+* Illustrate your key findings in an easily interpretable way.
 
 ---
 
 ## 4. Develop your solution
 
-1. Integrate your data.
+* Integrate your data.
+* Illustrate your key findings in an easily interpretable way.
 
-2. What are the key findings?
+~~**Bad Example:** We will compile the list of people who have offices, mark down whether or not they have shown up at the office for every day in the last month, and create a spreadsheet with those data.~~
 
-**Example:**
-
-We can compare the available office space to the space being used under a variety of conditions. This could include breaking the data down by building, floor, team, day of the week, month, and weather. We can investigate the capacitiy of different office layouts, an analyze the tradeoffs involved.
-
----
-
-## 5. Present results and recommendations.
-
-Follow-up studies?
-
-Implementable changes (if applicable)?
+**Good Example:** We can compare the available office space to the space being used under a variety of conditions. This could include breaking the data down by building, floor, team, day of the week, month, and weather. We can investigate the capacitiy of different office layouts, an analyze the tradeoffs involved.
 
 ---
 
-## 5. Present results and recommendations.
+## 5. Present results and recommendations (more on this next week!)
 
-Follow-up studies?
+* Know your audience.
+* Clearly articulate the takeaways.
+* Highlight the value added.
 
-Implementable changes (if applicable)?
+---
 
-**Example:** Perhaps designated work-from-home days per team would help. Perhaps it would make more sense to have less overall office space but more efficient use.
+## 5. Present results and recommendations (more on this next week!)
+
+* Know your audience.
+* Clearly articulate the takeaways.
+* Highlight the value added.
+
+~~**Bad Example:** We inform our department leaders that managers should tell employees specific days on which they need to come into the office.~~
+
+**Good Example:** You find that since office usage varies, it would be more efficient to have less office space overall but design it in a more flexible way. Each department could have designated office space and manage the allocation for individual teams.
 
 ---
 
@@ -267,23 +326,51 @@ Implementable changes (if applicable)?
 
 Insights are far more impactful if they are ***actionable***.
 
+* What recommendations are you making that are *within the jurisdiction* of your audience?
+* Eg. We are presenting this to our departments heads; do they have the power to implement and enforce what we are recommending?
+
 ---
 
 ## Check: how robust is your analysis?
 
 How can you quantify the value that you are providing?
 
+* Eg. what % of operating costs do you expect to save in a year?
+* How are you justifying your metrics?
+
 ---
 
-## Check: what are the caveats or unknowns?
+## Check: what are the risks/caveats/unknowns?
 
 Are you missing data that would provide more insight?
 
+* Eg. Are there policies that have changed at the team level?
+
 Is there a risk of false correlation?
+
+* Eg. What other factors may be influencing office usage during the period of study?
+    * Vacation season?
 
 How do we monitor whether these trends continue?
 
+* Eg. How do we continue to track office space usage in a meaningful way with flexible seating?
+
 ___
 
+# Summary: Developing a project plan
 
-## `Brief Git Review`
+1. Understand the business context.
+2. Identify an opportunity.
+3. Scope your analysis.
+4. Develop your solution.
+5. Present results and recommendations.
+
+### To keep in mind:
+
+* Are your insights *actionable?*
+* How robust is your analysis? *Quantify!*
+* What are the *risks/caveats/unknowns?*
+
+---
+
+## `Git Review: Resolving Merge Conflicts`

@@ -24,11 +24,16 @@ By the end of Team Project Module 2, participants will be able to:
 **Questions can be submitted to the _#cohort-3-help_ channel on Slack**
 
 * Technical Facilitator: 
-  * name and pronouns: `<Name>`, `<Pronouns>` 
-  * email: `<first_name.last_name@mail.ca>`
-* Learning Support Staff: 
-  * name and pronouns: `<Name>`, `<Pronouns>` 
-  * email: `<first_name.last_name@mail.ca>`
+  * **Phil Van-Lane**(he/him)
+  phil.vanlane@mail.utoronto.ca
+
+* Learning Support Staff:
+  * **Taneea Agrawaal** (she/her)
+  taneea@cs.toronto.edu
+  * **Farzaneh Hashemi** (she/her )
+  fhashemi.ma@gmail.com
+  * **Tong Su** (she/her)
+  tong.su@mail.utoronto.ca
 
 ### Delivery of Team Project Modules
 
