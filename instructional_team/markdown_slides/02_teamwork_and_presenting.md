@@ -14,11 +14,11 @@ $ echo "Data Sciences Institute"
 
 ## Yesterday
 
-1. Team Project guidelines
+1. Team Project Guidelines
 
-2. Developing a project idea
+2. Developing a Project Plan
 
-3. Git review
+3. Git Review: Resolving Merge Conflicts
 
 ---
 
@@ -28,17 +28,16 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
-### Learning Outcomes
-
-1. Resolve merge conflicts.
-
-2. Describe common problems or challenges a team encounters when working collaboratively using Git and GitHub.
-
-3. Create a program to analyze a dataset with contributions from multiple team members.
+### See [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) for requirements.
 
 ---
 
-### See [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) for requirements.
+## [The Five Orders of Ignorance](https://www.5oi.org/the-five-orders-of-ignorance)
+
+**A "meta-model of ignorance" that can help us put the unknowns of projects into context.**
+
+* The goal is to move down the ladder to 0OI.
+* 2OI and 3OI is where we should be spending most of our production energy.
 
 ---
 
@@ -46,48 +45,101 @@ ___Develop a program that uses data creatively to solve a problem or provide ins
 
 ---
 
+### How do we create business value?
 
+* We want to allocate our resources (eg. money, employees) in the way that generates the most value.
+    * How do we enable the decision makers?
 
-##### How can we get the most value out of our data, and use it to better inform business decisions?
+*Strategic decisions should be based on data!*
 
-* We want these contexts to overlap!
-
-![w:600 center](./images/business_data_context.png)
-
-
+![w:700 center](./images/business_data_context.png)
 
 ---
 ## Developing a project plan
 
 1. Understand the business context.
-
 2. Identify an opportunity.
-
-3. Develop your analysis.
-
-4. Present your results.
+3. Scope your analysis.
+4. Develop your solution.
+5. Present results and recommendations.
 
 ---
 
 ## Developing a project plan
 
-**Check:** are your insights actionable?
+**Check:** Are your insights *actionable*?
 
-**Check:** how robust is your analysis?
+**Check:** How robust is your analysis? *Quantify!*
 
-**Check:** what are the caveats or unknowns?
+**Check:** What are the *risks/caveats/unknowns?*
 
 ---
 
-### See repository for detailed requirements.
+## FAQs from yesterday:
+
+* **How do you submit your videos?**
+    * We will provide links to a Google Drive folder for each team. Each team member will upload their video to that folder. Make sure your name is in the file name that you upload!
+
+---
+
+## FAQs from yesterday:
+
+* **We have an idea but someone else has already completed a similar analysis. Can we still use that idea?**
+    * It may be difficult to find a problem that nobody has worked on already, but you should still bring something new to your solution to extend the analysis. This is also about being creative!
+    * If your project is motivated by work that is already public, cite this in your README file.
+    * If your goal is to improve on work that has already been done, state this explicitly in your README. Discuss how you want to improve the analysis.
+
+---
+
+## FAQs from yesterday:
+
+* **When is the project due?**
+    * The project is due this upcoming Sunday (June 23).
+
+---
+
+## FAQs from yesterday:
+
+* **Are there examples to refer to?**
+    * We will not provide any specific examples since we want you to develop your idea on your own, and showcase your creativity.
+    * Some example of how regression can be applied in business:
+        * [simplilearn](https://www.simplilearn.com/tutorials/excel-tutorial/regression-analysis#)
+        * [datagran](https://blog.datagran.io/posts/regression-analysis-for-business)
+    * Some examples of analyses:
+        * [Stock Price Prediction](https://www.kaggle.com/code/riddhidalal/stock-price-prediction-using-python)
+        * [Students Performance Analysis](https://www.kaggle.com/code/fxnanda/students-performance-dataset-analysis)
+        * Many others on Kaggle!
+
+---
+
+## FAQs from yesterday:
+
+* **What are the exact steps to set up the GitHub repository for your team?**
+
+    1. One team members forks the [DSI `team_project`](https://github.com/UofT-DSI/team_project) repository onto their personal account.
+    2. Every other team member clones the repository.
+    3. One team member creates the `team-project-1` branch and pushes it to GitHub. This will be the "working" branch for your project.
+    4. Each team member should be developing in a feature branch that is branched off of `team-project-1`.
+    5. When features are completed, those branches should be merged back into `team-project-1` with a pull request.
+
+---
+
+## FAQs from yesterday:
+
+* **What are the exact steps to set up the GitHub repository for your team?**
+
+    6. Each team member must submit at least one of these PRs.
+    7. Each PR must be reviewed by at least one other team member. We recommend assigning different reviewers to each PR, as one of the requirements is also that each team member review at least one PR.
+    8. When the project is completed, the `team-project-1` branch should be the final working version.
+    9. The project is submitted by submitting a PR to merge the `team-project-1` branch into the `main` branch of your **forked** repository. Any team member can submit this.
 
 ---
 
 ## Today
 
-1. Presenting your work and sharing it with others
+1. Presenting your work and sharing it with others.
 
-2. Rules of engagement and strategies for effective teamwork
+2. Rules of engagement and strategies for effective teamwork.
 
 ---
 
