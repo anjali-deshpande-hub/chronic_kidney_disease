@@ -99,7 +99,7 @@ These are objective measurements related to kidney function and other clinical p
 3. Which of the following: Serum Creatinine, GFR, protein in urine, show the strongest co-relation to CKD
 4. How do systolic and diastolic blood pressure levels co-relate with GFR and protein in urin?
 5. Do levels in electrolyte relate with CKD
-6. What is the lipid profile (LDL, HDL, total) of CKD patients after the blood pressures?
+6. What is the lipid profile (LDL, HDL, total) of CKD patients affect the blood pressures?
 
 
 ### Medications
