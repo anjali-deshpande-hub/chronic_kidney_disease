@@ -104,6 +104,7 @@ These are objective measurements related to kidney function and other clinical p
 4. How do systolic and diastolic blood pressure levels co-relate with GFR and protein in urin?
 5. Do levels in electrolyte relate with CKD
 6. What is the lipid profile (LDL, HDL, total) of CKD patients affect the blood pressures?
+7. Can we classify patients based on clinical measurements (systolic BP, SerumCreatinine, ProteinInUrin) into low (< 90), medium (9-100), high (>100) GFR categories?
 
 
 ### Medications
