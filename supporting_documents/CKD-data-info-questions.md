@@ -14,6 +14,10 @@ https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-dataset-an
 
 ## Predictor variables (listed under each category) and Questions
 
+### Questions based on all predictor variables
+
+1. What factors (include all predictors) predict the likelihood of a patient having Chronic Kidney Disease (CKD)?
+   
 ### Demographic variables
 
 1. *Age*: The age of the patients ranging from 20 to 90 years.
