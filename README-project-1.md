@@ -11,7 +11,7 @@ Source: https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-da
 1. Kateryna Skoropad
 2. Anjali Deshpande 
 3. Zarrin Rasizadeh
-4. Adithya Hadidi
+4. Adithya Hadadi
 
 ## Project Approach
 	
@@ -165,7 +165,7 @@ In the CKD dataset, there is data on the use of diuretics, antidiabetic drugs, a
     * Kateryna Skoropad - (Add link here)
     * Anjali Deshpande - (Add link here)
     * Zarrin Rasizadeh - (Add link here)
-    * Adithya Hadidi - (Add link here)
+    * Adithya Hadadi - https://drive.google.com/file/d/106kyntCuGyWkExNdhD3Esmu3zTc916c1/view?usp=sharing
 
 ### Rules of Engagement
 
