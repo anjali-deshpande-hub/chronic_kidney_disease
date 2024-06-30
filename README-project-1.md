@@ -72,7 +72,7 @@ Gender balance, ethnic distribution, socioeconomic status, education levels, smo
 ### Models and Predictions
 
 
-### Logistic Regression Model
+### 1. Logistic Regression Model
 
 **Variables:** Numerous predictors including demographic, clinical measurements, lifestyle factors, and medical history.
 
@@ -94,7 +94,7 @@ There are steps in the ROC curve, as compared to a smooth curve, indicative of a
 **Confusion Matrix:** Highlights a high rate of correct predictions for CKD positive cases but struggles with CKD negative cases due to dataset imbalance.
 Next Steps: Address dataset imbalance to improve model performance on CKD negative predictions.
   
-### K-Nearest Neighbors (KNN) Model
+### 2. K-Nearest Neighbors (KNN) Model
 
 **Preprocessing:** Standardization of predictors.
 
@@ -111,7 +111,7 @@ Precision and F1-score were higher for CKD, indicating the model's ability to co
 
 **Next Steps:** Addressing class imbalance and refining feature selection for improved performance.
 
-### Linear Regression Model
+### 3. Linear Regression Model
 
 **Objective:** Predict Glomerular Filtration Rate (GFR) using linear regression with selected predictors.
 
@@ -121,13 +121,16 @@ Precision and F1-score were higher for CKD, indicating the model's ability to co
 
 **Interpretation:** Variables do not explain GFR variability adequately, limiting predictive utility.
 
-### Lasso Regression Model
+### 4. Lasso Regression Model
 
 **Objective:** Use Lasso regression for feature selection and predicting CKD.
 
 **Evaluation:**
+
     1. MSE: 0.082, indicating average squared difference between predicted and actual values.
+
     2. MAE: 0.155, showing average absolute difference.
+
     3. R-squared: -0.002, suggesting poor model fit due to inappropriate model choice or noisy data.
 
 **Observations:** Model under-predicts CKD cases and indicates poor fit for predicting non-CKD status.
@@ -144,6 +147,7 @@ Logistic regression and KNN showed the best performance in predicting CKD, with 
 
 **Oversampling:** Randomly replicate instances of the minority class (CKD cases) to balance class distribution (e.g., SMOTE - Synthetic Minority Over-sampling Technique). Generate synthetic data points for the minority class using techniques like SMOTE to balance the dataset. 
 
+**Exploring Other models** Exploring tree-based algorithms is probably recommended, as they often perform well on imbalanced datasets. Additionally, boosting algorithms such as AdaBoost and XGBoost are ideal for such data because they give higher weight to the minority class at each successive iteration, adjusting the weights of misclassified classes during each training iteration.
 
 ### Deliverables
 
@@ -155,10 +159,10 @@ Logistic regression and KNN showed the best performance in predicting CKD, with 
 
 4. Video presentation of each team member:
 
-* Kateryna Skoropad - (Add link here)
-* Anjali Deshpande - (Add link here)
-* Zarrin Rasizadeh - (Add link here)
-* Adithya Hadidi - (Add link here)
+    * Kateryna Skoropad - (Add link here)
+    * Anjali Deshpande - (Add link here)
+    * Zarrin Rasizadeh - (Add link here)
+    * Adithya Hadidi - (Add link here)
 
 ### Rules of Engagement
 
