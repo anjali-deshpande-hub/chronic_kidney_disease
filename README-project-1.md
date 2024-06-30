@@ -15,7 +15,7 @@ Source: https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-da
 
 ## Project Approach
 	
-The team conducted a brainstorming session using the extensive list provided in [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) file provided to us. With the valuable expertise of two doctors in our team, we swiftly decided to focus on medical-related datasets.Our primary considerations centred around the Thyroid and Chronic Kidney Disease (CKD) datasets. Initially, we discussed potential questions that the CKD dataset could help us address. Recognizing the need for preliminary data analysis (EDA) to refine our questions, we embarked on exploring how various features in the dataset contribute to predicting CKD or non-CKD cases. 
+The team conducted a brainstorming session using the extensive list in [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) provided to us. With the valuable expertise of two doctors in our team, we swiftly decided to focus on medical-related datasets.Our primary considerations centred around the Thyroid and Chronic Kidney Disease (CKD) datasets. Initially, we discussed potential questions that the CKD dataset could help us address. Recognizing the need for preliminary data analysis (EDA) to refine our questions, we embarked on exploring how various features in the dataset contribute to predicting CKD or non-CKD cases. 
 
 The outcomes of our brainstorming sessions were documented [here](https://github.com/adithya28/team_project/blob/team-project-1/supporting_documents/CKD-data-info-questions.md).
 
@@ -31,11 +31,63 @@ Post-coding deadline, our focus shifted towards producing a video presentation a
 
 ## Learning Outcomes
 
-### Summary of analysis
+### EDA and Data Analysis
 
-#### EDA
 
-#### Models
+#### Data Overview and Cleaning:
+
+The dataset consists of demographic, clinical, and lifestyle data of patients diagnosed with CKD.
+Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dropped.
+Missing values were handled appropriately, and numerical data were normalized and standardized.
+
+Key Variables:
+
+Numerical Variables: GFR (Glomerular Filtration Rate) and SerumCreatinine were pivotal in diagnosing CKD. They showed significant variability and were positively correlated with CKD diagnosis.
+Categorical Variables: Ethnicity and Medical History (like Hypertension) were explored. Ethnicity showed some correlation with CKD prevalence.
+
+#### Correlation Analysis:
+
+1. Significant correlations (positive) were found between SerumCreatinine levels and the presence of CKD.
+
+2. GFR showed a negative correlation with CKD, indicating lower GFR values were associated with a higher likelihood of CKD diagnosis.
+
+#### Visualizations:
+
+Histograms and box plots illustrated the distribution of GFR and SerumCreatinine across different CKD stages. Pearson Co-relation and Heatmap was used to visualize correlations among predictor variables. GFR and SerumCreatinine showed higher co-relation with CKD.
+
+#### Models and Predictions
+
+##### Logistic Regression:
+
+Performance: Logistic regression achieved an accuracy of 82.5% in predicting CKD diagnosis.
+Key Predictors: SerumCreatinine and GFR were significant predictors, with coefficients indicating their strong influence on the CKD outcome.
+KNN Model:
+
+Performance: KNN model achieved an overall accuracy of 91.8%, but had challenges with sensitivity (recall) due to class imbalance in the dataset.
+Evaluation: Precision and F1-score were higher, indicating the model's ability to correctly classify CKD cases.
+
+Linear Regression (GFR Prediction):
+
+Outcome: Linear regression attempted to predict GFR based on factors like BUNLevels, SerumCreatinine, and ProteinInUrine.
+
+Challenges: The model exhibited low R-squared values, suggesting poor fit for GFR prediction, possibly due to non-linear relationships or missing influential predictors.
+
+Lasso Regression:
+
+Application: Lasso regression was used for feature selection and predicting CKD presence.
+
+Results: The model provided moderate predictive accuracy (R-squared of -0.0015), suggesting potential overfitting or inadequate feature selection.
+
+Conclusions:
+
+1. SerumCreatinine and GFR: These biomarkers consistently emerged as critical indicators for CKD diagnosis across both EDA and modeling phases.
+
+2. Model Performance: Logistic regression and KNN showed the best performance in predicting CKD, with logistic regression providing insights into influential predictors.
+
+3. Challenges: Class imbalance affected model performance, particularly in correctly identifying non-CKD cases. Almost all model predictions (logistic, KNN and Lasso) pointed towards the same imbalance
+
+4. Recommendations: Further refinement in feature selection methods like Lasso regression and addressing class imbalance could enhance model accuracy and generalizability.
+
 
 ### Deliverables
 
