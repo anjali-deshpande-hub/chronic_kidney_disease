@@ -15,7 +15,7 @@ Source: https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-da
 
 ## Project Approach
 	
-The team conducted a brainstorming session using the extensive list in [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) provided to us. With the valuable expertise of two doctors in our team, we swiftly decided to focus on medical-related datasets.Our primary considerations centred around the Thyroid and Chronic Kidney Disease (CKD) datasets. Initially, we discussed potential questions that the CKD dataset could help us address. Recognizing the need for preliminary data analysis (EDA) to refine our questions, we embarked on exploring how various features in the dataset contribute to predicting CKD or non-CKD cases. 
+The team conducted a brainstorming session using the extensive list in [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) provided to us. With the valuable expertise of two doctors in our team, we swiftly decided to focus on medical-related datasets. Our primary considerations centred around the Thyroid and Chronic Kidney Disease (CKD) datasets. Initially, we discussed potential questions that the CKD dataset could help us address. Recognizing the need for preliminary data analysis (EDA) to refine our questions, we embarked on exploring how various features in the dataset contribute to predicting CKD or non-CKD cases. 
 
 The outcomes of our brainstorming sessions were documented [here](https://github.com/adithya28/team_project/blob/team-project-1/supporting_documents/CKD-data-info-questions.md).
 
@@ -61,11 +61,11 @@ Missing values were handled appropriately, and numerical data was normalized and
 
 #####  Observations and Outcomes
 
-Health Indicators: 
+**Health Indicators:**
 
 Age, systolic BP, HbA1c levels, ACR, BUN levels, GFR, serum creatinine, and protein in urine were identified as significant indicators associated with CKD. Significant correlations (positive) were found between SerumCreatinine levels and the presence of CKD. GFR showed a negative correlation with CKD, indicating lower GFR values were associated with a higher likelihood of CKD diagnosis.
 
-Distribution Insights:
+**Distribution Insights:**
 
 Gender balance, ethnic distribution, socioeconomic status, education levels, smoking habits, and family medical history provided insights into the demographics and lifestyle factors of the population.
 
