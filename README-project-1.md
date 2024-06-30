@@ -29,64 +29,120 @@ Each team member took turns creating, reviewing, and merging PRs, fostering shar
 
 Post-coding deadline, our focus shifted towards producing a video presentation and preparing a detailed README file, summarizing our project's objectives, approach, methodologies, and outcomes.
 
-## Learning Outcomes
+## Learning Goals and Outcomes
 
 ### EDA and Data Analysis
 
-
 #### Data Overview and Cleaning:
 
-The dataset consists of demographic, clinical, and lifestyle data of patients diagnosed with CKD.
+The dataset consisted of demographic, clinical, and lifestyle data of patients diagnosed with CKD.
 Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dropped.
-Missing values were handled appropriately, and numerical data were normalized and standardized.
+Missing values were handled appropriately, and numerical data was normalized and standardized.
 
-Key Variables:
+#### Exploratory Data Analysis (EDA) and Visualizations
 
-Numerical Variables: GFR (Glomerular Filtration Rate) and SerumCreatinine were pivotal in diagnosing CKD. They showed significant variability and were positively correlated with CKD diagnosis.
-Categorical Variables: Ethnicity and Medical History (like Hypertension) were explored. Ethnicity showed some correlation with CKD prevalence.
+##### Univariate Analysis
 
-#### Correlation Analysis:
+    1. Summary Statistics: Provided descriptive statistics including count, mean, standard deviation, and percentiles for numerical variables.
 
-1. Significant correlations (positive) were found between SerumCreatinine levels and the presence of CKD.
+    2. Data Visualization: Utilized histograms to visualize distributions of numerical variables. For example, the 'Diagnosis' histogram showed a skew towards positive CKD diagnoses.
 
-2. GFR showed a negative correlation with CKD, indicating lower GFR values were associated with a higher likelihood of CKD diagnosis.
+##### Bivariate Analysis
 
-#### Visualizations:
+    1. Correlation Analysis:
 
-Histograms and box plots illustrated the distribution of GFR and SerumCreatinine across different CKD stages. Pearson Co-relation and Heatmap was used to visualize correlations among predictor variables. GFR and SerumCreatinine showed higher co-relation with CKD.
+        1. Pearson correlation coefficients were computed between numerical variables and the diagnosis ('Diagnosis') to identify relationships. GFR and SerumCreatinine showed higher co-relation with CKD.
 
-#### Models and Predictions
+        2. Visualized correlations using a heatmap, highlighting significant correlations such as SerumCreatinine positively correlating with Diagnosis and Glomerular Filtration Rate (GFR) negatively correlating.
 
-##### Logistic Regression:
+    2. Relationships with CKD:
 
-Performance: Logistic regression achieved an accuracy of 82.5% in predicting CKD diagnosis.
-Key Predictors: SerumCreatinine and GFR were significant predictors, with coefficients indicating their strong influence on the CKD outcome.
-KNN Model:
+    Box Plots: Compared distributions of numerical variables between CKD and non-CKD groups. Observations included higher median age, higher systolic BP, poorer HbA1c control, and lower GFR among CKD patients.
 
-Performance: KNN model achieved an overall accuracy of 91.8%, but had challenges with sensitivity (recall) due to class imbalance in the dataset.
-Evaluation: Precision and F1-score were higher, indicating the model's ability to correctly classify CKD cases.
+#####  Observations and Outcomes
 
-Linear Regression (GFR Prediction):
+Health Indicators: 
 
-Outcome: Linear regression attempted to predict GFR based on factors like BUNLevels, SerumCreatinine, and ProteinInUrine.
+Age, systolic BP, HbA1c levels, ACR, BUN levels, GFR, serum creatinine, and protein in urine were identified as significant indicators associated with CKD. Significant correlations (positive) were found between SerumCreatinine levels and the presence of CKD. GFR showed a negative correlation with CKD, indicating lower GFR values were associated with a higher likelihood of CKD diagnosis.
 
-Challenges: The model exhibited low R-squared values, suggesting poor fit for GFR prediction, possibly due to non-linear relationships or missing influential predictors.
+Distribution Insights:
 
-Lasso Regression:
+Gender balance, ethnic distribution, socioeconomic status, education levels, smoking habits, and family medical history provided insights into the demographics and lifestyle factors of the population.
 
-Application: Lasso regression was used for feature selection and predicting CKD presence.
+### Models and Predictions
 
-Results: The model provided moderate predictive accuracy (R-squared of -0.0015), suggesting potential overfitting or inadequate feature selection.
 
-Conclusions:
+### Logistic Regression Model
 
-1. SerumCreatinine and GFR: These biomarkers consistently emerged as critical indicators for CKD diagnosis across both EDA and modeling phases.
+**Variables:** Numerous predictors including demographic, clinical measurements, lifestyle factors, and medical history.
 
-2. Model Performance: Logistic regression and KNN showed the best performance in predicting CKD, with logistic regression providing insights into influential predictors.
+**Preprocessing:** Standardization for numerical features, one-hot encoding for categorical features.
 
-3. Challenges: Class imbalance affected model performance, particularly in correctly identifying non-CKD cases. Almost all model predictions (logistic, KNN and Lasso) pointed towards the same imbalance
+**Evaluation:** Achieved an accuracy of 93% on the test set.
 
-4. Recommendations: Further refinement in feature selection methods like Lasso regression and addressing class imbalance could enhance model accuracy and generalizability.
+**Precision and Recall:**
+
+    1. Class 0 (CKD negative): Precision 1.00, Recall 0.08
+    2. Class 1 (CKD positive): Precision 0.93, Recall 1.00
+
+**ROC:**
+Higher Area Under Curve (AUC) values indicates better model performance in distinguishing between CKD positive and negative cases.
+There are steps in the ROC curve, as compared to a smooth curve, indicative of an imbalanced datasets, due to fewer changes in predicted probabilities for the minority class.
+
+**Log loss:** The log loss value of 0.2 indicates high confidence and accuracy in the logistic regression model's predictions for CKD and non-CKD classes. This metric reinforces the model's effectiveness in probabilistic predictions.
+
+**Confusion Matrix:** Highlights a high rate of correct predictions for CKD positive cases but struggles with CKD negative cases due to dataset imbalance.
+Next Steps: Address dataset imbalance to improve model performance on CKD negative predictions.
+  
+### K-Nearest Neighbors (KNN) Model
+
+**Preprocessing:** Standardization of predictors.
+
+**Evaluation:** Achieved an accuracy of 91.8% on the test set, but had challenges with sensitivity (recall) due to class imbalance in the dataset. 
+
+**Precision and Recall:**
+
+    1. Class 0 (no CKD): Precision 0.00, Recall 0.00
+    2. Class 1 (CKD): Precision 0.92, Recall 0.99
+
+Precision and F1-score were higher for CKD, indicating the model's ability to correctly classify CKD cases.
+
+**Confusion Matrix:** Shows a strong ability to predict CKD (class 1) but struggles with class 0 due to severe class imbalance.
+
+**Next Steps:** Addressing class imbalance and refining feature selection for improved performance.
+
+### Linear Regression Model
+
+**Objective:** Predict Glomerular Filtration Rate (GFR) using linear regression with selected predictors.
+
+**Predictors:** BUNLevels, SerumCreatinine, ProteinInUrine, HbA1c.
+
+**Evaluation:** Poor fit indicated by low R-squared (0.003) and non-significant F-statistic (p = 0.309). The model exhibited low R-squared values, suggesting poor fit for GFR prediction, possibly due to non-linear relationships or missing influential predictors.
+
+**Interpretation:** Variables do not explain GFR variability adequately, limiting predictive utility.
+
+### Lasso Regression Model
+
+**Objective:** Use Lasso regression for feature selection and predicting CKD.
+
+**Evaluation:**
+    1. MSE: 0.082, indicating average squared difference between predicted and actual values.
+    2. MAE: 0.155, showing average absolute difference.
+    3. R-squared: -0.002, suggesting poor model fit due to inappropriate model choice or noisy data.
+
+**Observations:** Model under-predicts CKD cases and indicates poor fit for predicting non-CKD status.
+
+
+## Overall Insights and Areas of improvement
+
+Logistic regression and KNN showed the best performance in predicting CKD, with logistic regression providing insights into influential predictors.
+
+**Dataset Imbalance:** Class imbalance affected model performance, particularly in correctly identifying non-CKD cases. Almost all model predictions (logistic, KNN and Lasso) pointed towards the same imbalance. This resulting in models with high accuracy but biased towards the majority class (in our case, the diagnosis of CKD), and failing to capture the nuances in the minority class. Steps such as undersampling, oversampling, feature selection etc. should be taken to address this issue. Both logistic regression and KNN models faced challenges due to a significant imbalance between CKD positive and negative cases. Addressing this imbalance through techniques like oversampling or adjusting class weights could improve predictions for CKD negative cases. 
+
+**Cross-Validation Strategies:** We might want want to use advanced cross-validation techniques (e.g., stratified K-fold) to ensure model performance stability.
+
+
+**Oversampling:** Randomly replicate instances of the minority class (CKD cases) to balance class distribution (e.g., SMOTE - Synthetic Minority Over-sampling Technique). Generate synthetic data points for the minority class using techniques like SMOTE to balance the dataset. 
 
 
 ### Deliverables
@@ -130,6 +186,21 @@ Slack was used for day-to-day communication, while Microsoft Teams and Zoom was 
 * Team members collaborated to resolve conflicts during code merging.
 
 * Persistent issues were escalated to other team members who had IT experience for resolution.
+
+### Challenges
+
+During the execution of the team project, we encountered the following challenges:
+
+* Varying levels of technical skill proficiency.
+* Insufficient time.
+* Lack of experience of majority of team members working in data analysis area.
+* Resolving merge conflicts: Errors occurrences when combining team member's code.
+
+
+### Lessons Learned
+
+In teamwork, open communication, mutual respect, and assistance allow us to overcome any difficulties.
+
 
 ### Directory structure
 
