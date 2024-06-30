@@ -149,6 +149,9 @@ Logistic regression and KNN showed the best performance in predicting CKD, with 
 
 **Exploring Other models** Exploring tree-based algorithms is probably recommended, as they often perform well on imbalanced datasets. Additionally, boosting algorithms such as AdaBoost and XGBoost are ideal for such data because they give higher weight to the minority class at each successive iteration, adjusting the weights of misclassified classes during each training iteration.
 
+**Exploring other relations**
+In the CKD dataset, there is data on the use of diuretics, antidiabetic drugs, and NSAIDs. It would be interesting to investigate whether there is a correlation between the development of CKD and specific classes of these drugs, rather than just the groups as a whole.
+
 ### Deliverables
 
 1. Notebook file with EDA and models: [CKD.ipynb](https://github.com/adithya28/team_project/blob/team-project-1/src/CKD.ipynb)
