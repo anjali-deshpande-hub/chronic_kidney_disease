@@ -162,7 +162,7 @@ In the CKD dataset, there is data on the use of diuretics, antidiabetic drugs, a
 
 4. Video presentation of each team member:
 
-    * Kateryna Skoropad - (Add link here)
+    * Kateryna Skoropad - (https://drive.google.com/file/d/1TLpJWCkmaWgd1fHmtmGpn2MhnDYJ8i-S/view?usp=drive_link)
     * Anjali Deshpande - (Add link here)
     * Zarrin Rasizadeh - (Add link here)
     * Adithya Hadidi - (Add link here)
