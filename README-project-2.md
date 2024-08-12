@@ -8,16 +8,17 @@ Source: https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-da
 
 ## Introduction
 
-Chronic kidney disease (CKD) is a dangerous disease that can last a person’s entire life and is caused by either kidney malignancy or it can be caused by decreased kidney functioning. Chronic kidney disease, or CKD, is a condition in which the kidneys are so damaged that they can’t filter blood as well as they should. The kidneys’ main job is to get rid of waste and extra water from the blood. CKD means that waste has built up in the body. This condition is called chronic because the damage happens slowly over a long period of time. It is a disease that affects people all over the world. Diabetes, high blood pressure, and heart disease are only three of the many conditions that can lead to CKD.  Age and gender also play a role in who gets a CKD.  The two most common illnesses that might cause long-term damage to the kidneys are diabetes and high blood pressure. Therefore, the prevention of CKD can be thought of as the control of these two diseases as well. Because CKD does not often present any symptoms until it has progressed to a more advanced state, many people who have it do not realize they have it until it is too late. 
-It is possible to halt or slow the progression of this chronic disease to an end-stage where dialysis or kidney transplant are the only options to save a patient’s life.
+Chronic kidney disease (CKD) is a dangerous disease that can last a person’s entire life and is caused by either kidney malignancy or it decreased kidney functioning. CKD is a condition in which the kidneys are so damaged that they can’t filter blood effectively. The kidneys’ main job is to remove waste and excess water from the blood. CKD means that waste accumulates in the body. It is called chronic because the damage happens slowly over a long period of time. CKD affects people worldwide, and conditions such as diabetes, high blood pressure, and heart disease can lead to it. Age and gender also influence the likelihood of developing CKD. The two most common illnesses that might cause long-term damage to the kidneys are diabetes and high blood pressure, so controlling these diseases is crucial for CKD prevention. Many people with CKD do not realize they have it until it is too late, as symptoms often do not appear until the disease is advanced.
 
-Early detection of the disease can lead to better outcomes – it can save lifes. The goal was to find certain indicators/features in the dataset that predict the diagnosis of the disease and emphasize the importance of regular testing. 
+Early detection can halt or slow the progression of CKD, potentially preventing the need for dialysis or a kidney transplant. Identifying certain indicators in the dataset that predict CKD and emphasizing the importance of regular testing can lead to better outcomes and save lives.
 
-Since the dataset contains demographic information, lifestyle factors, health behaviours, environment and occupational exposures, the data analysis could potentially analyze disparities in CKD prevalence in different groups. It could potentially highlight inequalities in healthcare access. The analysis can help patients by providing them with better information so that they can make better decisions about their care. 
+Since the dataset contains demographic information, lifestyle factors, health behaviours, environment and occupational exposures, the data analysis could potentially analyze disparities in CKD prevalence in different groups. It could potentially highlight inequalities in healthcare access. This analysis can help patients by providing them with better information so that they can make better decisions about their care. 
 
-This dataset contains detailed health information for 1,659 patients diagnosed with CKD or no CKD. The dataset includes demographic details, lifestyle factors, medical history, clinical measurements, medication usage, symptoms, quality of life scores, environmental exposures, and health behaviors. Each patient is uniquely identified by a Patient ID, and the data includes a confidential column indicating the doctor in charge. 
+This dataset contains detailed health information for 1,659 patients. Each patient is uniquely identified by a Patient ID. It also includes a confidential column indicating the doctor in charge. 
 
-This project is investigating the potential of using different machine learning models for providing an early diagnosis of CKD. In a supervised learning environment, that uses four machine learning algorithms to successfully predict CKD. 
+This project investigates the potential of using different machine learning models for providing an early diagnosis of CKD. In a supervised learning environment, four machine learning algorithms are employed to predict CKD accurately.
+
+For a detailed description of the predictors or features in this dataset and their meanings,  please refer to the Data Card section of the Kaggle link [(here)(https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-dataset-analysis)].
 
 ## Team members
 
@@ -41,7 +42,8 @@ To streamline our development process, each programmer created a new branch name
 
 ### Phase 2
 
-We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/adithya28/team_project/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found [(here)(https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view)].
+We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/adithya28/team_project/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found 
+[(here)(https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view)].
 
 There was a need to have a concise display of bar plots and frequency plots in the EDA section of the notebook. We discussed the need for pipelines that included pre-processing steps and classifiers, handling normalization, data balancing with SMOTE and feature engineering. The framework could contain functions that each team member could use for implementation and tuning of various models to make the code more modular and scalable. This approach would ensure fewer bugs and allow passing the same pre-processed data to all models.
 
@@ -52,7 +54,7 @@ We wanted to further evaluate existing models (Logistic Regression and KNN) and 
 Consistent visualization of results with all the tuned model was to be implemented. We created common functions for visualizating the results using various plots. 
 These included ROC curves, confusion matrices, Precision-Recall curves, Probability Prediction plots for model performance, and functions to evaluate Log Loss. We also wanted to implement functions for Permutation Importance plot, Partial Dependence Plot, Feature Importance plot, SHAP and beeswarm plot for model feature importance.
 
-To streamline our development process, we followed the same guidelines as in Phase 1. Each programmer created a new branch named project-2-feature-<number> (e.g., project-2-feature-1, project-2-feature-2) for their assigned tasks. Following the completion of each task, a pull request (PR) was created for review. PRs were tagged with the usernames of the assigned reviewers. Each team member took turns creating, reviewing, and merging pull requests, ensuring that quality was maintained. Programmers continued iterating on their respective feature branches to refine and enhance their code based on inputs from other team members. When the specific functionality was finished, changes were merged into the team-project-2 branch to integrate the functionality, thereby automatically closing the Pull Request.
+To streamline our development process, we followed the same guidelines as in Phase 1. Each programmer created a new branch named project-2-feature-\<number\> (e.g., project-2-feature-1, project-2-feature-2) for their assigned tasks. Following the completion of each task, a pull request (PR) was created for review. PRs were tagged with the usernames of the assigned reviewers. Each team member took turns creating, reviewing, and merging pull requests, ensuring that quality was maintained. Programmers continued iterating on their respective feature branches to refine and enhance their code based on inputs from other team members. When the specific functionality was finished, changes were merged into the team-project-2 branch to integrate the functionality, thereby automatically closing the Pull Request.
 
 ## Outcomes
 
@@ -87,41 +89,102 @@ Gender balance, ethnic distribution, socioeconomic status, education levels, smo
 
 ### 1. Logistic Regression Model
 
+#### Logistic Regression Model Dashboard
+
+| Confusion Matrix | Log Loss |
+|------------------|----------|
+| ![Confusion Matrix](images/plot_confusion_matrix.png) | ![Log Loss](images/print_log_loss.png) |
+
+| Predicted Probabilities Histogram | ROC Curve |
+|-----------------------------------|-----------|
+| ![Predicted Probabilities Histogram](images/plot_predicted_probabilities_histogram.png) | ![ROC Curve](images/plot_roc_curve.png) |
+
+| Precision-Recall Curve | Permutation Importance |
+|------------------------|------------------------|
+| ![Precision-Recall Curve](images/plot_precision_recall_curve.png) | ![Permutation Importance](images/plot_permutation_importance.png) |
+
+| Partial Dependence Plots | Feature Importance |
+|--------------------------|--------------------|
+| ![Partial Dependence Plots](images/plot_partial_dependence_plots.png) | ![Feature Importance](images/plot_feature_importance.png) |
+
+| SHAP Beeswarm |
+|---------------|
+| ![SHAP Beeswarm](images/plot_SHAP_beeswarm.png) |
+
 ### 2. K-Nearest Neighbors (KNN) Model
 
+#### KNN Model Dashboard
+
+| Confusion Matrix | Log Loss |
+|------------------|----------|
+| ![Confusion Matrix](images/plot_confusion_matrix.png) | ![Log Loss](images/print_log_loss.png) |
+
+| Predicted Probabilities Histogram | ROC Curve |
+|-----------------------------------|-----------|
+| ![Predicted Probabilities Histogram](images/plot_predicted_probabilities_histogram.png) | ![ROC Curve](images/plot_roc_curve.png) |
+
+| Precision-Recall Curve | Permutation Importance |
+|------------------------|------------------------|
+| ![Precision-Recall Curve](images/plot_precision_recall_curve.png) | ![Permutation Importance](images/plot_permutation_importance.png) |
+
+| Partial Dependence Plots | Feature Importance |
+|--------------------------|--------------------|
+| ![Partial Dependence Plots](images/plot_partial_dependence_plots.png) | ![Feature Importance](images/plot_feature_importance.png) |
+
+| SHAP Beeswarm |
+|---------------|
+| ![SHAP Beeswarm](images/plot_SHAP_beeswarm.png) |
+
 ### 3. XGBoost Model
+
+#### XGBoost Model Dashboard
+
+| Confusion Matrix | Log Loss |
+|------------------|----------|
+| ![Confusion Matrix](images/plot_confusion_matrix.png) | ![Log Loss](images/print_log_loss.png) |
+
+| Predicted Probabilities Histogram | ROC Curve |
+|-----------------------------------|-----------|
+| ![Predicted Probabilities Histogram](images/plot_predicted_probabilities_histogram.png) | ![ROC Curve](images/plot_roc_curve.png) |
+
+| Precision-Recall Curve | Permutation Importance |
+|------------------------|------------------------|
+| ![Precision-Recall Curve](images/plot_precision_recall_curve.png) | ![Permutation Importance](images/plot_permutation_importance.png) |
+
+| Partial Dependence Plots | Feature Importance |
+|--------------------------|--------------------|
+| ![Partial Dependence Plots](images/plot_partial_dependence_plots.png) | ![Feature Importance](images/plot_feature_importance.png) |
+
+| SHAP Beeswarm |
+|---------------|
+| ![SHAP Beeswarm](images/plot_SHAP_beeswarm.png) |
 
 ### 4. Random Forest Classifier Model
 
 ## Areas of improvement
 
-1. Explore combining features like age and BMI, FastingBloodSugar and HbA1C. Research whether SystolicBP and DiastolicBP could be combined.
+1. **Explore Feature Combinations**
+   - Combine features such as age and BMI; Fasting Blood Sugar and HbA1C together.
+   - Research if SystolicBP and DiastolicBP could be effectively combined.
 
-2. Exploring other models
+2. **Explore Other Models**
+   - Increase the complexity of current models to improve the ability to learn characteristics of class 0.
+   - Experiment with Convolutional Neural Networks (CNNs).
 
-Consider trying different models or increasing the complexity of your current model to improve its ability to learn characteristics of class 0. Experiment with Convulated Neural Networks.
+3. **Feature Reduction and Feature Selection**
+   Apply feature selection techniques to reduce the number of features and enhance model performance. 
+   - **Choose and Evaluate Features**: Select a subset of the most important features based on specific criteria and use a model to evaluate this subset. Compare the performance of models trained with different feature subsets to determine the best trade-off between performance and complexity.
+   - **Feature Selection Methods**:
+     - **Chi-Square Test**: Assess the independence between categorical features and the target variable.
+     - **ANOVA (Analysis of Variance)**: Test for significant differences in means for numerical features.
+     - **Recursive Feature Elimination (RFE)**: Recursively remove features and build models to evaluate their impact on performance. RFE can be computationally expensive with large feature sets.
+   - **Dimensionality Reduction**: This project experimented with Principal Component Analysis (PCA) using the KNN model. Consider exploring Linear Discriminant Analysis (LDA) as well.
 
-3. Feature Reduction and Feature Selection
+4. **Explore Drug Relations**
+   Investigate the correlation between CKD development and specific classes of drugs, such as diuretics, antidiabetic drugs, and NSAIDs. Examine these drugs in detail rather than as broad categories.
 
-The goal is to apply feature selection techniques to reduce the number of features. Principal Component Analysis (PCA) for transforming features into a lower-dimensional space while retaining variance was experimented with in this project with KNN model. But Linear Discriminant Analysis (LDA) could also be experimented.
-
-Improve feature selection and engineering to better capture the distinctions between the classes. 
-
-    1. Choose a subset of the most important features based on certain criteria. Thereafter, use a model to evaluate feature subset. Compare the performance of models trained with different subsets of features. Determine which subset offers the best trade-off between performance and model complexity.
-
-    2. Feature Selection methods can help identify which features contribute the most to the prediction task. 
-
-    - Chi-Square Test: Assess the independence between categorical features and the target variable.
-
-    - ANOVA (Analysis of Variance): Test whether there is significant difference in the means of different groups for numerical features.
-
-    3. Recursive Feature Elimination (RFE): Recursively remove features and build models to evaluate the impact on performance. This is computationally expensive especially with large set of features like in this dataset.
-
-4. Exploring other relations
-
-In the CKD dataset, there is data on the use of diuretics, antidiabetic drugs, and NSAIDs. It would be interesting to investigate whether there is a correlation between the development of CKD and specific classes of these drugs, rather than just the groups as a whole.
-
-5. Experiment tracking tools for managing and analyzing machine learning experiments like MLflow, Sacred or TensorBoard.
+5. **Experiment Tracking Tools**
+   Use tools like MLflow, Sacred, or TensorBoard for managing and analyzing machine learning experiments.
 
 ### Deliverables
 
