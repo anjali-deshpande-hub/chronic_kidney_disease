@@ -60,30 +60,57 @@ To streamline our development process, we followed the same guidelines as in Pha
 
 ### Data Overview and Cleaning:
 
-The dataset consisted of demographic, clinical, and lifestyle data of patients diagnosed with CKD.
-Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dropped.
-Missing values were handled appropriately, and numerical data was normalized and standardized.
+The dataset consists of 1659 rows and 54 columns of which the number of features or predictors are 51.
+
+Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dropped. Missing values were handled appropriately, and numerical data was normalized and standardized before 
 
 ### Exploratory Data Analysis (EDA) and Visualizations
 
 #### Univariate Analysis
 
-    
+1. Summary Statistics: This provided descriptive statistics including count, mean, standard deviation, and percentiles for numerical variables.
+
+2. Histograms were used to visualize the distributions of numerical variables. For instance, the histogram of 'Diagnosis' revealed a skew towards positive CKD diagnoses, indicating an imbalance in the dataset. Specifically, it showed that CKD cases were significantly more prevalent than non-CKD cases.    
+
+![Histogram of some features](./reports/images/CKD_19_0.png)
+![Histogram of response feature 'Diagnosis'](./reports/images/CKD_20_0.png)
+
+3. Frequency plots and Bar plots
+![Frequency plots](./reports/images/CKD_29_0.png)
+![Bar plots](./reports/images/CKD_32_0.png)
 
 #### Bivariate Analysis
 
+1. Correlation Analysis:
+
+   1. Pearson correlation coefficients were computed between numerical variables and the diagnosis ('Diagnosis') to identify relationships. GFR and SerumCreatinine showed higher co-relation with CKD.
+
+   2. Visualized correlations using a heatmap, highlighting significant correlations such as SerumCreatinine positively correlating with Diagnosis and Glomerular Filtration Rate (GFR) negatively correlating.
+   ![Correlation heatmap](./reports/images/CKD_42_0.png)
+2. Relationships with CKD:
+
+    Box Plots: Compared distributions of numerical variables between CKD and non-CKD groups. Observations included higher median age, higher systolic BP, poorer HbA1c control, and lower GFR among CKD patients.
+    ![Box plots](./reports/images/CKD_44_0.png)
 
 ####  Observations and Outcomes
 
 **Health Indicators:**
 
-Age, systolic BP, HbA1c levels, ACR, BUN levels, GFR, serum creatinine, and protein in urine were identified as significant indicators associated with CKD. Significant correlations (positive) were found between SerumCreatinine levels and the presence of CKD. GFR showed a negative correlation with CKD, indicating lower GFR values were associated with a higher likelihood of CKD diagnosis.
+Age, Systolic BP, HbA1c levels, ACR, BUN levels, GFR, Serum creatinine, and Protein in urine were identified as significant indicators associated with CKD. Significant correlations (positive) were found between SerumCreatinine levels and the presence of CKD. GFR showed a negative correlation with CKD, indicating lower GFR values were associated with a higher likelihood of CKD diagnosis.
 
 **Distribution Insights:**
 
 Gender balance, ethnic distribution, socioeconomic status, education levels, smoking habits, and family medical history provided insights into the demographics and lifestyle factors of the population.
 
 ## Models and Predictions
+
+### Model Pipeline Creation
+
+A model pipeline was designd to emphasize a structured approach to data handling and model training. The **Preprocessing Pipeline** was built to standardize numeric features, optionally applying **Principal Component Analysis (PCA)** for dimensionality reduction. Categorical variables were encoded using **one-hot encoding**. Binary features were retained in their original format. This integrated pipeline ensured that all data transformations were consistently applied, preparing the data for subsequent modeling. By orchestrating these steps within a single pipeline, the process became streamlined and manageable, setting the stage for model training.
+
+### Model Tuning and Evaluation
+
+The **model tuning and evaluation** process was designed to enhance the model’s performance and reliability through systematic refinement. Initially, **SMOTE** was used to address any class imbalances in the dataset. The pipeline, which included preprocessing and model training, was optimized using cross-validation, specifically **StratifiedKFold or KFold**, to ensure robust performance assessment and generalizability. **Grid search or randomized search** was employed to explore various hyperparameter settings, identifying the best configuration. Model performance was assessed using metrics such as accuracy, precision, recall, F1 score, and ROC AUC. This evaluation ensured that the model was well-tuned and effective for deployment in real-world scenarios.
 
 ### 1. Logistic Regression Model
 
