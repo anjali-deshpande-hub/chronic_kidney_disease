@@ -1,26 +1,63 @@
 # Team Project 2 - Group 9
 
-## Description
+- [Team Project 2 - Group 9](#team-project-2---group-9)
+- [Description](#description)
+- [Introduction](#introduction)
+- [Team members](#team-members)
+- [Project Approach](#project-approach)
+  - [Phase 1](#phase-1)
+  - [Phase 2](#phase-2)
+- [EDA and Data Analysis](#eda-and-data-analysis)
+  - [Data Overview and Cleaning:](#data-overview-and-cleaning)
+  - [Exploratory Data Analysis (EDA) and Visualizations](#exploratory-data-analysis-eda-and-visualizations)
+    - [Univariate Analysis](#univariate-analysis)
+    - [Bivariate Analysis](#bivariate-analysis)
+    - [Observations and Outcomes](#observations-and-outcomes)
+- [Models and Predictions](#models-and-predictions)
+  - [Model Pipeline Creation](#model-pipeline-creation)
+  - [Model Tuning and Evaluation](#model-tuning-and-evaluation)
+  - [1. Logistic Regression Model](#1-logistic-regression-model)
+    - [Logistic Regression Model Dashboard](#logistic-regression-model-dashboard)
+    - [Logistic Regression Model Observations](#logistic-regression-model-observations)
+  - [2. K-Nearest Neighbors (KNN) Model](#2-k-nearest-neighbors-knn-model)
+    - [KNN Model Dashboard](#knn-model-dashboard)
+    - [KNN Model Observations](#knn-model-observations)
+  - [3. XGBoost (XGBClassifier) Model](#3-xgboost-xgbclassifier-model)
+    - [XGBoost Model (XGBClassifier) Dashboard](#xgboost-model-xgbclassifier-dashboard)
+    - [XGBoost Model Observations](#xgboost-model-observations)
+  - [4. Random Forest Classifier Model](#4-random-forest-classifier-model)
+    - [Random Forest Model Dashboard](#random-forest-model-dashboard)
+    - [Random Forest Model Observations](#random-forest-model-observations)
+- [Areas of improvement](#areas-of-improvement)
+- [Deliverables](#deliverables)
+- [Rules of Engagement](#rules-of-engagement)
+  - [Primary Communication Channels:](#primary-communication-channels)
+  - [GitHub Workflow:](#github-workflow)
+- [Conflict Resolution:](#conflict-resolution)
+- [Challenges](#challenges)
+- [Lessons Learned](#lessons-learned)
+- [Directory structure](#directory-structure)
+
+
+# Description
 
 This project analyzes data set obtained from patients diagnosed with Chronic Kidney Disease (CKD). The dataset includes demographic details, lifestyle factors, medical history, clinical measurements, medication usage, symptoms, quality of life scores, environmental exposures, and health behaviors. 
 
 Source: https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-dataset-analysis
 
-## Introduction
+# Introduction
 
-Chronic kidney disease (CKD) is a dangerous disease that can last a person’s entire life and is caused by either kidney malignancy or it decreased kidney functioning. CKD is a condition in which the kidneys are so damaged that they can’t filter blood effectively. The kidneys’ main job is to remove waste and excess water from the blood. CKD means that waste accumulates in the body. It is called chronic because the damage happens slowly over a long period of time. CKD affects people worldwide, and conditions such as diabetes, high blood pressure, and heart disease can lead to it. Age and gender also influence the likelihood of developing CKD. The two most common illnesses that might cause long-term damage to the kidneys are diabetes and high blood pressure, so controlling these diseases is crucial for CKD prevention. Many people with CKD do not realize they have it until it is too late, as symptoms often do not appear until the disease is advanced.
+Chronic Kidney Disease (CKD) is a serious and long-term condition that is characterized by gradual decline in kidney function over time. The kidneys are vital organs responsible for filtering waste and excess fluids from the blood, which are then excreted as urine. In CKD, this filtering ability is compromised, leading to a dangerous buildup of waste and fluids in the body.
 
-Early detection can halt or slow the progression of CKD, potentially preventing the need for dialysis or a kidney transplant. Identifying certain indicators in the dataset that predict CKD and emphasizing the importance of regular testing can lead to better outcomes and save lives.
+CKD develops slowly and often remains undetected until it reaches an advanced stage, as early symptoms can be subtle or absent. The disease is called "chronic" because it progresses over an extended period. Various factors can contribute to CKD, including diabetes, high blood pressure, and heart disease. Managing conditions like diabetes and hypertension is crucial to prevent or slow the progression of CKD. Early detection and management are key to controlling CKD and can potentially prevent the need for dialysis or a kidney transplant. By identifying key indicators in health data, it is possible to improve early diagnosis and enhance patient outcomes. Regular testing and monitoring play a significant role in managing CKD effectively.
 
-Since the dataset contains demographic information, lifestyle factors, health behaviours, environment and occupational exposures, the data analysis could potentially analyze disparities in CKD prevalence in different groups. It could potentially highlight inequalities in healthcare access. This analysis can help patients by providing them with better information so that they can make better decisions about their care. 
+This dataset includes comprehensive health information for 1,659 patient. Each patient is uniquely identified by a Patient ID. It also includes a confidential column indicating the doctor in charge. This dataset offers a valuable opportunity to explore how various machine learning models can be used to predict CKD at an early stage. This analysis can help patients by providing them with better information so that they can make better decisions about their care. In a supervised learning environment, four machine learning algorithms are expermimented to predict CKD accurately.
 
-This dataset contains detailed health information for 1,659 patients. Each patient is uniquely identified by a Patient ID. It also includes a confidential column indicating the doctor in charge. 
+By analyzing demographic information, lifestyle factors, health behaviors, environment and occupational exposures, we can uncover disparities in CKD prevalence across different groups and potentially identify gaps in healthcare access.
 
-This project investigates the potential of using different machine learning models for providing an early diagnosis of CKD. In a supervised learning environment, four machine learning algorithms are employed to predict CKD accurately.
+For a detailed description of the predictors or features in this dataset and their meanings,  please refer to the Data Card section of the Kaggle link [here](https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-dataset-analysis).
 
-For a detailed description of the predictors or features in this dataset and their meanings,  please refer to the Data Card section of the Kaggle link [(here)(https://www.kaggle.com/datasets/rabieelkharoua/chronic-kidney-disease-dataset-analysis)].
-
-## Team members
+# Team members
 
 1. Kateryna Skoropad
 2. Anjali Deshpande 
@@ -28,9 +65,9 @@ For a detailed description of the predictors or features in this dataset and the
 4. Adithya Hadadi
 
 
-## Project Approach
+# Project Approach
 
-### Phase 1
+## Phase 1
 
 The team conducted a brainstorming session using the extensive list in [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) provided to us. With the valuable expertise of two doctors in our team, we swiftly decided to focus on medical-related datasets. Our primary considerations centred around the Thyroid and Chronic Kidney Disease (CKD) datasets. Initially, we discussed potential questions that the CKD dataset could help us address. Recognizing the need for preliminary data analysis (EDA) to refine our questions, we explored how various features in the dataset contribute to predicting CKD or non-CKD cases. 
 
@@ -40,7 +77,7 @@ We initiated our work with an empty notebook, CKD.ipynb, initially containing ba
  
 To streamline our development process, each programmer created a new branch named feature-\<number\> (e.g., feature-1, feature-2) for their assigned tasks. Following completion of each task, a pull request (PR) was created for review. PRs were tagged with the usernames of the assigned reviewers. As part of our commitment to sharing responsibilities, each team member took turns creating, reviewing, and merging pull requests, ensuring that quality was maintained. Throughout the review process, programmers continued iterating on their respective feature branches to refine and enhance their code. When the specific functionality was reviewed and finished, changes were merged into team-project-1 branch to integrate the functionality.
 
-### Phase 2
+## Phase 2
 
 We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/adithya28/team_project/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found 
 [(here)(https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view)].
@@ -56,17 +93,15 @@ These included ROC curves, confusion matrices, Precision-Recall curves, Probabil
 
 To streamline our development process, we followed the same guidelines as in Phase 1. Each programmer created a new branch named project-2-feature-\<number\> (e.g., project-2-feature-1, project-2-feature-2) for their assigned tasks. Following the completion of each task, a pull request (PR) was created for review. PRs were tagged with the usernames of the assigned reviewers. Each team member took turns creating, reviewing, and merging pull requests, ensuring that quality was maintained. Programmers continued iterating on their respective feature branches to refine and enhance their code based on inputs from other team members. When the specific functionality was finished, changes were merged into the team-project-2 branch to integrate the functionality, thereby automatically closing the Pull Request.
 
-## EDA and Data Analysis
+# EDA and Data Analysis
 
-### Data Overview and Cleaning:
+## Data Overview and Cleaning:
 
-The dataset consists of 1659 rows and 54 columns of which the number of features or predictors are 51.
+The dataset consists of 1659 rows and 54 columns of which the number of features or predictors are 51. Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dropped. 
 
-Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dropped. Missing values were handled appropriately, and numerical data was normalized and standardized before 
+## Exploratory Data Analysis (EDA) and Visualizations
 
-### Exploratory Data Analysis (EDA) and Visualizations
-
-#### Univariate Analysis
+### Univariate Analysis
 
 1. Summary Statistics: This provided descriptive statistics including count, mean, standard deviation, and percentiles for numerical variables.
 
@@ -82,7 +117,7 @@ Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dro
 <img src="./reports/images/CKD_29_0.png" alt="Frequency plots" width="400" height="300"/>
 <img src="./reports/images/CKD_32_0.png" alt="Bar plots" width="400" height="300"/>
 
-#### Bivariate Analysis
+### Bivariate Analysis
 
 1. Correlation Analysis:
 
@@ -99,7 +134,7 @@ Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dro
     <img src="./reports/images/CKD_44_0.png" alt="Box plots" width="400" height="300"/>
    
 
-####  Observations and Outcomes
+###  Observations and Outcomes
 
 **Health Indicators:**
 
@@ -109,19 +144,19 @@ Age, Systolic BP, HbA1c levels, ACR, BUN levels, GFR, Serum creatinine, and Prot
 
 Gender balance, ethnic distribution, socioeconomic status, education levels, smoking habits, and family medical history provided insights into the demographics and lifestyle factors of the population.
 
-## Models and Predictions
+# Models and Predictions
 
-### Model Pipeline Creation
+## Model Pipeline Creation
 
 A model pipeline was designd to emphasize a structured approach to data handling and model training. The **Preprocessing Pipeline** was built to standardize numeric features, optionally applying **Principal Component Analysis (PCA)** for dimensionality reduction. Categorical variables were encoded using **one-hot encoding**. Binary features were retained in their original format. This integrated pipeline ensured that all data transformations were consistently applied, preparing the data for subsequent modeling. By orchestrating these steps within a single pipeline, the process became streamlined and manageable, setting the stage for model training.
 
-### Model Tuning and Evaluation
+## Model Tuning and Evaluation
 
 The **model tuning and evaluation** process was designed to enhance the model’s performance and reliability through systematic refinement. Initially, **SMOTE** was used to address any class imbalances in the dataset. The pipeline, which included preprocessing and model training, was optimized using cross-validation, specifically **StratifiedKFold or KFold**, to ensure robust performance assessment and generalizability. **Grid search or randomized search** was employed to explore various hyperparameter settings, identifying the best configuration. Model performance was assessed using metrics such as accuracy, precision, recall, F1 score, and ROC AUC. This evaluation ensured that the model was well-tuned and effective for deployment in real-world scenarios.
 
-### 1. Logistic Regression Model
+## 1. Logistic Regression Model
 
-#### Logistic Regression Model Dashboard
+### Logistic Regression Model Dashboard
 
 | Confusion Matrix | ROC Curve |
 |------------------|-----------|
@@ -140,7 +175,7 @@ The **model tuning and evaluation** process was designed to enhance the model’
 |----------------|---------------|
 |<img src="./reports/images/CKD_68_0.png" alt="SHAP waterfall" width="400" height="300"/> | <img src="./reports/images/CKD_68_1.png" alt="SHAP Beeswarm" width="400" height="300"/> |
 
-#### Logistic Regression Model Observations
+### Logistic Regression Model Observations
 -----
 
 **Training Accuracy and Metrics**
@@ -191,7 +226,7 @@ Test ROC AUC: 0.74: Similar to the validation ROC AUC, indicating moderate perfo
 
 Best Parameters: {'classifier__solver': 'liblinear', 'classifier__C': 10}: These are the best parameters found through hyperparameter tuning:
 solver='': This is the optimization algorithm used for training the logistic regression model.
-C=10: This is the regularization parameter. The value 1 indicates the strength of regularization, balancing model complexity and fit.
+C=10: This is the regularization parameter. The value 10 indicates the strength of regularization, balancing model complexity and fit.
 
 **Plot Observations**
 
@@ -221,9 +256,9 @@ The permutation importance plots shows features that differ significantly from t
 
 ************************
 
-### 2. K-Nearest Neighbors (KNN) Model
+## 2. K-Nearest Neighbors (KNN) Model
 
-#### KNN Model Dashboard
+### KNN Model Dashboard
 
 | Confusion Matrix | ROC Curve |
 |------------------|-----------|
@@ -241,7 +276,7 @@ The permutation importance plots shows features that differ significantly from t
 |--------------------------|
 | <img src="./reports/images/CKD_85_0.png" alt="Partial Dependence Plots" width="400" height="300"/> | 
 
-#### KNN Model Observations
+### KNN Model Observations
 ----
 <u>**Training Accuracy and Metrics**</u>
 
@@ -291,23 +326,24 @@ The permutation importance plots shows features that differ significantly from t
 
 **Plot Observations**
 
-The KNN model shows mixed performance.
+The KNN model shows poor performance.
 
 PCA Analysis identifies several important features, but the high number of components suggests complex feature interactions. Confusion Matrix and Log Loss (4.97) indicates moderate to poor classification performance, with significant room for improvement in predicting both classes.
 
 ROC AUC of 0.65 shows that the model performs better than random guessing but is not highly effective at distinguishing between classes. Non-CKD has a precision of 0.08, and CKD has a precision of 0.94, indicating strong performance for CKD but very poor performance for non-CKD. Non-CKD has a recall of 0.71, while CKD has a recall of 0.38, showing that non-CKD is identified more reliably than CKD. Non-CKD has an F1-score of 0.15, and CKD has 0.54, reflecting better performance for CKD but poor overall balance.
 
-Permutation Importance plot highlights key features that impact the model’s predictions, but this list differs from the list of features listed in the Feature Importance plot. The Partial Dependence Plots suggests model interpretability issues, with incorrect relationships identified for several critical features like HbA1c, SerumCreatinine, GFR etc
+Permutation Importance plot highlights key features that impact the model’s predictions, but this list differs from the list of features listed in the Feature Importance plot. 
 
-The Partial Dependence Plot (PDP) for a logistic regression model shows an inverse relationship between ACR (Albumin-to-Creatinine Ratio) and HbA1C with Chronic Kidney Disease (CKD), and this relationship seems counterintuitive or incorrect based on domain knowledge. Tt suggests potential issues with the model or the data.
+
+The Partial Dependence Plots suggests model interpretability issues, with incorrect relationships identified for several critical features like HbA1c, SerumCreatinine, GFR etc. The Partial Dependence Plot (PDP) for a logistic regression model shows an inverse relationship between ACR (Albumin-to-Creatinine Ratio) and HbA1C with Chronic Kidney Disease (CKD), and this relationship seems counterintuitive or incorrect based on domain knowledge. It suggests potential issues with the model or the data.
 
 The Precision Recal curve (PR) the models shows that precision decreases from 1 to 0.93 steadily as recall increases from 0 to 1. After this linear increase, precision drops from 0.97 to 0.93 in a curved fashion as recall continues to increase. This pattern indicates that while the model maintains high precision initially, it experiences a gradual decrease in precision as recall increases, with a noticeable linear phase followed by a curved decline.
 
 ************************
 
-### 3. XGBoost Model
+## 3. XGBoost (XGBClassifier) Model
 
-#### XGBoost Model Dashboard
+### XGBoost Model (XGBClassifier) Dashboard
 
 | Confusion Matrix | ROC Curve |
 |------------------|-----------|
@@ -332,7 +368,7 @@ The Precision Recal curve (PR) the models shows that precision decreases from 1 
 
 
 
-#### XGBoost Model Observations
+### XGBoost Model Observations
 ----
 <u>**Training Accuracy and Metrics**</u>
 
@@ -395,7 +431,7 @@ Shows a distribution with most predictions close to 1, indicating that the model
 
 *Precision-Recall Curve:*
 
-The curve starts at 1 and steps down before following a typical precision-recall curve, indicating that most predicted probabilities are high. The Precision Recal curve (PR) shows that for recall values up to 0.0.5, precision is very high (1), indicating that the model’s predictions are highly accurate when it does classify positives. As recall increases beyond 0.05, precision initially rises to 0.99 before eventually decreasing to 0.93 following a typical PR curve. This reflects the model's high initial precision and subsequent decrease as more positives are identified. The curve follows a typical PR shape with fluctuations, illustrating the model's performance variations across different instances. Overall, the model maintains high precision at low recall but experiences a slight decrease in precision as recall increases, with some variability in precision due to performance fluctuations.
+The curve starts at 1 and steps down before following a typical precision-recall curve, indicating that most predicted probabilities are high. The Precision Recall curve (PR) shows that for recall values up to 0.0.5, precision is very high (1), indicating that the model’s predictions are highly accurate when it does classify positives. As recall increases beyond 0.05, precision initially rises to 0.99 before eventually decreasing to 0.93 following a typical PR curve. This reflects the model's high initial precision and subsequent decrease as more positives are identified. The curve follows a typical PR shape with fluctuations, illustrating the model's performance variations across different instances. Overall, the model maintains high precision at low recall but experiences a slight decrease in precision as recall increases, with some variability in precision due to performance fluctuations.
 
 *ROC Curve:*
 
@@ -420,9 +456,9 @@ The XGBoost model demonstrates good performance on both training and validation 
 
 ************************
 
-### 4. Random Forest Classifier Model
+## 4. Random Forest Classifier Model
 
-#### Random Forest Model Dashboard
+### Random Forest Model Dashboard
 
 | Confusion Matrix | ROC Curve |
 |------------------|-----------|
@@ -436,7 +472,7 @@ The XGBoost model demonstrates good performance on both training and validation 
 |--------------------------|--------------------|
 | <img src="./reports/images/CKD_112_0.png" alt="Partial Dependence Plots" width="400" height="300"/> | <img src="./reports/images/CKD_108_0.png" alt="Feature Importance" width="400" height="300"/> |
 
-#### Random Forest Model Observations
+### Random Forest Model Observations
 
 Training Performance: Precision, recall, and F1-score for both classes (0 and 1) are all perfect (1.00), indicating that the model performed flawlessly on the training data.
 
@@ -449,7 +485,7 @@ The Random Forest model achieved perfect performance on the training data with 1
 
 ************************
 
-## Areas of improvement
+# Areas of improvement
 
 1. **Explore Feature Combinations**
    - Combine features such as age and BMI; Fasting Blood Sugar and HbA1C together.
@@ -474,7 +510,7 @@ The Random Forest model achieved perfect performance on the training data with 1
 5. **Experiment Tracking Tools**
    Use tools like MLflow, Sacred, or TensorBoard for managing and analyzing machine learning experiments.
 
-## Deliverables
+# Deliverables
 
 1. Notebook file with EDA and models: [CKD.ipynb](https://github.com/adithya28/team_project/blob/team-project-2/src/CKD.ipynb)
 
@@ -489,13 +525,13 @@ The Random Forest model achieved perfect performance on the training data with 1
     * Zarrin Rasizadeh - [Add Link Here]
     * Adithya Hadadi - [Add Link Here]
 
-## Rules of Engagement
+# Rules of Engagement
 
-### Primary Communication Channels: 
+## Primary Communication Channels: 
 
 Slack was used for day-to-day communication, while Microsoft Teams and Zoom was utilized for scheduled meetings and screen sharing.
 
-### GitHub Workflow:
+## GitHub Workflow:
 
 * Each team member worked on individual feature branches (e.g., project-2-feature-1, project-2-feature-2 etc) for developing code.
 
@@ -511,13 +547,13 @@ Slack was used for day-to-day communication, while Microsoft Teams and Zoom was 
 
 * Changes in team-project-2 were not to be merged into team-project-1. The two branches were kept independent of each other. 
 
-### Conflict Resolution:
+# Conflict Resolution:
 
 * Team members collaborated to resolve conflicts during code merging.
 
 * Persistent issues were escalated to other team members who had IT experience for resolution.
 
-## Challenges
+# Challenges
 
 During the execution of the team project, we encountered the following challenges:
 
@@ -527,12 +563,12 @@ During the execution of the team project, we encountered the following challenge
 * Resolving merge conflicts: Errors occurrences when combining team member's code.
 
 
-## Lessons Learned
+# Lessons Learned
 
 In teamwork, open communication, mutual respect, and assistance allow us to overcome any difficulties.
 
 
-## Directory structure
+# Directory structure
 
 ```markdown
 |-- data
