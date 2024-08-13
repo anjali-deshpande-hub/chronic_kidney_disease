@@ -72,12 +72,15 @@ Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dro
 
 2. Histograms were used to visualize the distributions of numerical variables. For instance, the histogram of 'Diagnosis' revealed a skew towards positive CKD diagnoses, indicating an imbalance in the dataset. Specifically, it showed that CKD cases were significantly more prevalent than non-CKD cases.    
 
-![Histogram of some features](./reports/images/CKD_19_0.png)
-![Histogram of response feature 'Diagnosis'](./reports/images/CKD_20_0.png)
+<img src="./reports/images/CKD_19_0.png" alt="Histogram of some features" width="400" height="300"/>
+
+   Histogram of response variable 'Diagnosis' showing data imbalance
+
+   <img src="./reports/images/CKD_20_0.png" width="100" height="100"/>
 
 3. Frequency plots and Bar plots
-![Frequency plots](./reports/images/CKD_29_0.png)
-![Bar plots](./reports/images/CKD_32_0.png)
+<img src="./reports/images/CKD_29_0.png" alt="Frequency plots" width="400" height="300"/>
+<img src="./reports/images/CKD_32_0.png" alt="Bar plots" width="400" height="300"/>
 
 #### Bivariate Analysis
 
@@ -86,11 +89,14 @@ Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dro
    1. Pearson correlation coefficients were computed between numerical variables and the diagnosis ('Diagnosis') to identify relationships. GFR and SerumCreatinine showed higher co-relation with CKD.
 
    2. Visualized correlations using a heatmap, highlighting significant correlations such as SerumCreatinine positively correlating with Diagnosis and Glomerular Filtration Rate (GFR) negatively correlating.
-   ![Correlation heatmap](./reports/images/CKD_42_0.png)
+   
+   <img src="./reports/images/CKD_42_0.png" alt="Correlation heatmap" width="300" height="200"/>
+   
 2. Relationships with CKD:
 
     Box Plots: Compared distributions of numerical variables between CKD and non-CKD groups. Observations included higher median age, higher systolic BP, poorer HbA1c control, and lower GFR among CKD patients.
-    ![Box plots](./reports/images/CKD_44_0.png)
+    <img src="./reports/images/CKD_44_0.png" alt="Box plots" width="400" height="300"/>
+   
 
 ####  Observations and Outcomes
 
