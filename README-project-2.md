@@ -89,12 +89,13 @@ Features like 'DoctorInCharge' and 'PatientID' were non-informative and were dro
    1. Pearson correlation coefficients were computed between numerical variables and the diagnosis ('Diagnosis') to identify relationships. GFR and SerumCreatinine showed higher co-relation with CKD.
 
    2. Visualized correlations using a heatmap, highlighting significant correlations such as SerumCreatinine positively correlating with Diagnosis and Glomerular Filtration Rate (GFR) negatively correlating.
-   
+
    <img src="./reports/images/CKD_42_0.png" alt="Correlation heatmap" width="300" height="200"/>
    
 2. Relationships with CKD:
 
     Box Plots: Compared distributions of numerical variables between CKD and non-CKD groups. Observations included higher median age, higher systolic BP, poorer HbA1c control, and lower GFR among CKD patients.
+    
     <img src="./reports/images/CKD_44_0.png" alt="Box plots" width="400" height="300"/>
    
 
