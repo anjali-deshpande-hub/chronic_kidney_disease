@@ -522,7 +522,7 @@ The Random Forest model achieved perfect performance on the training data with 1
 
     * Kateryna Skoropad - [Add Link Here]
     * Anjali Deshpande - [Add Link Here]
-    * Zarrin Rasizadeh - [Add Link Here]
+    * Zarrin Rasizadeh - [https://drive.google.com/file/d/1AO7-40nrwJsMU-rhD2tKt0ICxG2aGgZk/view?usp=sharing]
     * Adithya Hadadi - [Add Link Here]
 
 # Rules of Engagement
