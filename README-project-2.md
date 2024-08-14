@@ -23,8 +23,8 @@
     - [KNN Model Dashboard](#knn-model-dashboard)
     - [KNN Model Observations](#knn-model-observations)
   - [3. XGBoost (XGBClassifier) Model](#3-xgboost-xgbclassifier-model)
-    - [XGBoost Model (XGBClassifier) Dashboard](#xgboost-model-xgbclassifier-dashboard)
-    - [XGBoost Model Observations](#xgboost-model-observations)
+    - [XGBoost (XGBClassifier) Model Dashboard](#xgboost-xgbclassifier-model-dashboard)
+    - [XGBoost (XGBClassifier) Model Observations](#xgboost-xgbclassifier-model-observations)
   - [4. Random Forest Classifier Model](#4-random-forest-classifier-model)
     - [Random Forest Model Dashboard](#random-forest-model-dashboard)
     - [Random Forest Model Observations](#random-forest-model-observations)
@@ -61,9 +61,8 @@ For a detailed description of the predictors or features in this dataset and the
 
 1. Kateryna Skoropad
 2. Anjali Deshpande 
-3. Zarrin Rasizadeh
+3. Zarrin Rasizadeh [https://drive.google.com/file/d/1AO7-40nrwJsMU-rhD2tKt0ICxG2aGgZk/view?usp=sharing]
 4. Adithya Hadadi
-
 
 # Project Approach
 
@@ -80,7 +79,7 @@ To streamline our development process, each programmer created a new branch name
 ## Phase 2
 
 We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/adithya28/team_project/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found 
-[(here)(https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view)].
+[here](https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view).
 
 There was a need to have a concise display of bar plots and frequency plots in the EDA section of the notebook. We discussed the need for pipelines that included pre-processing steps and classifiers, handling normalization, data balancing with SMOTE and feature engineering. The framework could contain functions that each team member could use for implementation and tuning of various models to make the code more modular and scalable. This approach would ensure fewer bugs and allow passing the same pre-processed data to all models.
 
@@ -149,6 +148,12 @@ Gender balance, ethnic distribution, socioeconomic status, education levels, smo
 ## Model Pipeline Creation
 
 A model pipeline was designd to emphasize a structured approach to data handling and model training. The **Preprocessing Pipeline** was built to standardize numeric features, optionally applying **Principal Component Analysis (PCA)** for dimensionality reduction. Categorical variables were encoded using **one-hot encoding**. Binary features were retained in their original format. This integrated pipeline ensured that all data transformations were consistently applied, preparing the data for subsequent modeling. By orchestrating these steps within a single pipeline, the process became streamlined and manageable, setting the stage for model training.
+
+The data was split into training, validation, and test sets as follows:
+
+**Initial Split:** The data was first divided into 80% for training and 20% for testing.
+
+**Second Split:** The 80% training set was then further split into 80% for training and 20% for validation.
 
 ## Model Tuning and Evaluation
 
@@ -337,13 +342,13 @@ Permutation Importance plot highlights key features that impact the model’s pr
 
 The Partial Dependence Plots suggests model interpretability issues, with incorrect relationships identified for several critical features like HbA1c, SerumCreatinine, GFR etc. The Partial Dependence Plot (PDP) for a logistic regression model shows an inverse relationship between ACR (Albumin-to-Creatinine Ratio) and HbA1C with Chronic Kidney Disease (CKD), and this relationship seems counterintuitive or incorrect based on domain knowledge. It suggests potential issues with the model or the data.
 
-The Precision Recal curve (PR) the models shows that precision decreases from 1 to 0.93 steadily as recall increases from 0 to 1. After this linear increase, precision drops from 0.97 to 0.93 in a curved fashion as recall continues to increase. This pattern indicates that while the model maintains high precision initially, it experiences a gradual decrease in precision as recall increases, with a noticeable linear phase followed by a curved decline.
+The Precision Recall curve (PR) the models shows that precision decreases from 1 to 0.93 steadily as recall increases from 0 to 1. After this linear increase, precision drops from 0.97 to 0.93 in a curved fashion as recall continues to increase. This pattern indicates that while the model maintains high precision initially, it experiences a gradual decrease in precision as recall increases, with a noticeable linear phase followed by a curved decline.
 
 ************************
 
 ## 3. XGBoost (XGBClassifier) Model
 
-### XGBoost Model (XGBClassifier) Dashboard
+### XGBoost (XGBClassifier) Model Dashboard
 
 | Confusion Matrix | ROC Curve |
 |------------------|-----------|
@@ -367,8 +372,7 @@ The Precision Recal curve (PR) the models shows that precision decreases from 1 
 |<img src="./reports/images/CKD_101_0.png" alt="SHAP waterfall" width="400" height="300"/> | <img src="./reports/images/CKD_101_1.png" alt="SHAP Beeswarm" width="400" height="300"/> |
 
 
-
-### XGBoost Model Observations
+### XGBoost (XGBClassifier) Model Observations
 ----
 <u>**Training Accuracy and Metrics**</u>
 
