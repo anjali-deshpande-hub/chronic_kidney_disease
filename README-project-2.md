@@ -51,7 +51,7 @@ Chronic Kidney Disease (CKD) is a serious and long-term condition that is charac
 
 CKD develops slowly and often remains undetected until it reaches an advanced stage, as early symptoms can be subtle or absent. The disease is called "chronic" because it progresses over an extended period. Various factors can contribute to CKD, including diabetes, high blood pressure, and heart disease. Managing conditions like diabetes and hypertension is crucial to prevent or slow the progression of CKD. Early detection and management are key to controlling CKD and can potentially prevent the need for dialysis or a kidney transplant. By identifying key indicators in health data, it is possible to improve early diagnosis and enhance patient outcomes. Regular testing and monitoring play a significant role in managing CKD effectively.
 
-This dataset includes comprehensive health information for 1,659 patient. Each patient is uniquely identified by a Patient ID. It also includes a confidential column indicating the doctor in charge. This dataset offers a valuable opportunity to explore how various machine learning models can be used to predict CKD at an early stage. This analysis can help patients by providing them with better information so that they can make better decisions about their care. In a supervised learning environment, four machine learning algorithms are expermimented to predict CKD accurately.
+This dataset includes comprehensive health information for 1,659 patients. Each patient is uniquely identified by a Patient ID. It also includes a confidential column indicating the doctor in charge. This dataset offers a valuable opportunity to explore how various machine learning models can be used to predict CKD at an early stage. This analysis can help patients by providing them with better information so that they can make better decisions about their care. In a supervised learning environment, four machine learning algorithms are expermimented to predict CKD accurately.
 
 By analyzing demographic information, lifestyle factors, health behaviors, environment and occupational exposures, we can uncover disparities in CKD prevalence across different groups and potentially identify gaps in healthcare access.
 
@@ -61,7 +61,7 @@ For a detailed description of the predictors or features in this dataset and the
 
 1. Kateryna Skoropad
 2. Anjali Deshpande 
-3. Zarrin Rasizadeh [https://drive.google.com/file/d/1AO7-40nrwJsMU-rhD2tKt0ICxG2aGgZk/view?usp=sharing]
+3. Zarrin Rasizadeh 
 4. Adithya Hadadi
 
 # Project Approach
@@ -106,25 +106,52 @@ The dataset consists of 1659 rows and 54 columns of which the number of features
 
 2. Histograms were used to visualize the distributions of numerical variables. For instance, the histogram of 'Diagnosis' revealed a skew towards positive CKD diagnoses, indicating an imbalance in the dataset. Specifically, it showed that CKD cases were significantly more prevalent than non-CKD cases.    
 
-<img src="./reports/images/CKD_19_0.png" alt="Histogram of some features" width="400" height="300"/>
+   <img src="./reports/images/CKD_19_0.png" alt="Histogram of some features" width="400" height="300"/>
 
    Histogram of response variable 'Diagnosis' showing data imbalance
 
    <img src="./reports/images/CKD_20_0.png" width="100" height="100"/>
 
-3. Frequency plots and Bar plots
-<img src="./reports/images/CKD_29_0.png" alt="Frequency plots" width="400" height="300"/>
-<img src="./reports/images/CKD_32_0.png" alt="Bar plots" width="400" height="300"/>
+
+3. Scatter plots
+   
+   | GFR vs ProteinInUrine | GFR vs SerumCreatinine |
+   |-----------------------|------------------------|
+   | <img src="./reports/images/CKD_23_0.png" alt="GFR vs ProteinInUrine" width="200" height="200"/> | <img src="./reports/images/CKD_25_0.png" alt="GFR vs SerumCreatinine" width="200" height="200"/> |
+
+   The two scatter plots look very similar with red spots (CKD) scattered throughout the plot and majority of the green spots (non CKD) on the bottom right of the plot. The concentration of green dots (non-CKD patients) on the bottom right of the plot indicates that non-CKD patients generally have higher GFR and lower SerumCreatinine (and lower ProteinInUrine) values. This aligns with the expected physiological relationship where healthy individuals typically have high GFR and low SerumCreatinine (lower ProteinInUrine).
+
+   The weak negative correlation (with a low correlation co-efficient) suggests that within the CKD group, there isn't a strong linear relationship between GFR and SerumCreatinine (as well as ProteinInUrine). This weak correlation might be due to variability in kidney function and creatinine levels across different stages of CKD. CKD is progressive, and the relationship between GFR and SerumCreatinine (ProteinInUrine) might not follow a simple linear pattern.
+
+4. Frequency plots and Bar plots
+   
+   The frequency plots and bar plots were plotted for categorical variables, illustrating the distribution of data across different categories or groups. They show the count or proportion of observations within each category.
+
+   <img src="./reports/images/CKD_29_0.png" alt="Frequency plots" width="400" height="300"/>
+
+   <img src="./reports/images/CKD_32_0.png" alt="Bar plots" width="400" height="300"/>
 
 ### Bivariate Analysis
 
 1. Correlation Analysis:
 
-   1. Pearson correlation coefficients were computed between numerical variables and the diagnosis ('Diagnosis') to identify relationships. GFR and SerumCreatinine showed higher co-relation with CKD.
+   1. Pearson correlation coefficients were computed between numerical variables and the diagnosis ('Diagnosis') to identify relationships. GFR and SerumCreatinine showed higher co-relation with CKD. Some of the top co-rtelations found are listed here:
+    
+      | Index | Feature 1               | Feature 2              | Co-relation Coefficient |
+      |-------|--------------------------|------------------------|-------------------------|
+      | 1     | Diagnosis                | SerumCreatinine        | 0.201125                |
+      | 2     | Diagnosis                | GFR                    | -0.175988               |
+      | 3     | Diagnosis                | Itching                | 0.100652                |
+      | 4     | Diagnosis                | FastingBloodSugar      | 0.095694                |
+      | 5     | Diagnosis                | MuscleCramps           | 0.094811                |
+      | 6     | Diagnosis                | BUNLevels              | 0.093097                |
+      | 7     | Diagnosis                | ProteinInUrine         | 0.090014                |
+      | 8     | Diagnosis                | SystolicBP             | 0.083528                |
 
-   2. Visualized correlations using a heatmap, highlighting significant correlations such as SerumCreatinine positively correlating with Diagnosis and Glomerular Filtration Rate (GFR) negatively correlating.
 
-   <img src="./reports/images/CKD_42_0.png" alt="Correlation heatmap" width="300" height="200"/>
+   3. Visualized correlations using a heatmap, highlighting significant correlations such as SerumCreatinine positively correlating with Diagnosis and Glomerular Filtration Rate (GFR) negatively correlating.
+
+      <img src="./reports/images/CKD_42_0.png" alt="Correlation heatmap" width="300" height="200"/>
    
 2. Relationships with CKD:
 
