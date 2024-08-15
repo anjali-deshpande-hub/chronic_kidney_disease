@@ -524,7 +524,7 @@ The Random Forest model achieved perfect performance on the training data with 1
 
 2. **Explore Other Models**
    - Increase the complexity of current models to improve the ability to learn characteristics of class 0.
-   - Experiment with Convolutional Neural Networks (CNNs).
+   - Experiment with Convolutional Neural Networks (CNNs). The experiments with CNN and RNN can be seen in ['feature-3-CNN_RNN' branch](https://github.com/adithya28/team_project/blob/feature-3-CNN_RNN/src/CKD.ipynb) of the repository.
 
 3. **Feature Reduction and Feature Selection**
    Apply feature selection techniques to reduce the number of features and enhance model performance. 
@@ -551,8 +551,8 @@ The Random Forest model achieved perfect performance on the training data with 1
 
 4. Video presentation of each team member:
 
-    * Kateryna Skoropad - [Add Link Here]
-    * Anjali Deshpande - [Add Link Here]
+    * Kateryna Skoropad - [https://drive.google.com/file/d/1v--YIa6I26N-a73_3U39JXSkI-QujfeI/view?usp=sharing&t=3]
+    * Anjali Deshpande - [https://drive.google.com/file/d/1knOunc6L4hgX6N9rDQnQfWnoZH4wF757/view?usp=drive_link]
     * Zarrin Rasizadeh - [https://drive.google.com/file/d/1AO7-40nrwJsMU-rhD2tKt0ICxG2aGgZk/view?usp=sharing]
     * Adithya Hadadi - [https://drive.google.com/file/d/1xI7s4K_jB-_rngttjc371p8bQIpGr_0n/view?usp=sharing]
 
