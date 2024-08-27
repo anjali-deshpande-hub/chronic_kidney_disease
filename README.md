@@ -79,7 +79,7 @@ To streamline our development process, each programmer created a new branch name
 ## Phase 2
 
 We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/anjali-deshpande-hub/chronic_kidney_disease/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found 
-[here](https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view).
+[here](https://docs.google.com/document/d/1WOEcHl594iNGUqygUqhWamQ3H6nYrc_h0TqpXSGf1xQ/edit?usp=drive_link).
 
 There was a need to have a concise display of bar plots and frequency plots in the EDA section of the notebook. We discussed the need for pipelines that included pre-processing steps and classifiers, handling normalization, data balancing with SMOTE and feature engineering. The framework could contain functions that each team member could use for implementation and tuning of various models to make the code more modular and scalable. This approach would ensure fewer bugs and allow passing the same pre-processed data to all models.
 
