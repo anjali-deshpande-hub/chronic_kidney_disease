@@ -1,6 +1,6 @@
-# Team Project 2 - Group 9
+# Chronic Kidney Disease
 
-- [Team Project 2 - Group 9](#team-project-2---group-9)
+- [Chronic Kidney Disease](#chronic-kidney-disease)
 - [Description](#description)
 - [Introduction](#introduction)
 - [Team members](#team-members)
@@ -59,8 +59,8 @@ For a detailed description of the predictors or features in this dataset and the
 
 # Team members
 
-1. Kateryna Skoropad
-2. Anjali Deshpande 
+1. Anjali Deshpande 
+2. Kateryna Skoropad
 3. Zarrin Rasizadeh 
 4. Adithya Hadadi
 
@@ -70,7 +70,7 @@ For a detailed description of the predictors or features in this dataset and the
 
 The team conducted a brainstorming session using the extensive list in [Team Project Part 1](https://github.com/UofT-DSI/team_project/blob/main/team_project_1.md) provided to us. With the valuable expertise of two doctors in our team, we swiftly decided to focus on medical-related datasets. Our primary considerations centred around the Thyroid and Chronic Kidney Disease (CKD) datasets. Initially, we discussed potential questions that the CKD dataset could help us address. Recognizing the need for preliminary data analysis (EDA) to refine our questions, we explored how various features in the dataset contribute to predicting CKD or non-CKD cases. 
 
-The outcomes of our brainstorming sessions were documented [here](https://github.com/adithya28/team_project/blob/team-project-1/supporting_documents/CKD-data-info-questions.md).
+The outcomes of our brainstorming sessions were documented [here](https://github.com/anjali-deshpande-hub/chronic_kidney_disease/blob/team-project-1/supporting_documents/CKD-data-info-questions.md).
 
 We initiated our work with an empty notebook, CKD.ipynb, initially containing basic metadata blocks. Each block was assigned to specific programmers, detailing tasks and responsibilities. Guided by the principles of Exploratory Data Analysis (EDA) outlined in [this article](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/), our objective was to apply the statistical learning concepts covered in the 'Applying Statistical Learning' module of our program. Four models were implemented namely  Logistic Regression, K-Nearest Neighbors (KNN), Linear Regression, and Lasso Regression.
  
@@ -78,7 +78,7 @@ To streamline our development process, each programmer created a new branch name
 
 ## Phase 2
 
-We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/adithya28/team_project/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found 
+We started with the notebook file (main source code) from phase 1 of the project, using it as our baseline. The Phase 1 code was reviewed and iterated upon. We studied the section under 'Overall Insights and Areas of Improvement' in the [(Readme)](https://github.com/anjali-deshpande-hub/chronic_kidney_disease/blob/team-project-1/README-project-1.md) of the first phase. A comprehensive task list was created after discussion, which can be found 
 [here](https://drive.google.com/file/d/18sClhYqB4m8HqLS3fzqJMZ6Mwyej4zJ_/view).
 
 There was a need to have a concise display of bar plots and frequency plots in the EDA section of the notebook. We discussed the need for pipelines that included pre-processing steps and classifiers, handling normalization, data balancing with SMOTE and feature engineering. The framework could contain functions that each team member could use for implementation and tuning of various models to make the code more modular and scalable. This approach would ensure fewer bugs and allow passing the same pre-processed data to all models.
@@ -524,7 +524,7 @@ The Random Forest model achieved perfect performance on the training data with 1
 
 2. **Explore Other Models**
    - Increase the complexity of current models to improve the ability to learn characteristics of class 0.
-   - Experiment with Convolutional Neural Networks (CNNs). The experiments with CNN and RNN can be seen in ['feature-3-CNN_RNN' branch](https://github.com/adithya28/team_project/blob/feature-3-CNN_RNN/src/CKD.ipynb) of the repository.
+   - Experiment with Convolutional Neural Networks (CNNs).
 
 3. **Feature Reduction and Feature Selection**
    Apply feature selection techniques to reduce the number of features and enhance model performance. 
@@ -543,16 +543,16 @@ The Random Forest model achieved perfect performance on the training data with 1
 
 # Deliverables
 
-1. Notebook file with EDA and models: [CKD.ipynb](https://github.com/adithya28/team_project/blob/team-project-2/src/CKD.ipynb)
+1. Notebook file with EDA and models: [CKD.ipynb](https://github.com/anjali-deshpande-hub/chronic_kidney_disease/blob/team-project-2/src/CKD.ipynb)
 
-2. Supporting documention: [CKD-data-info-questions.md](https://github.com/adithya28/team_project/blob/team-project-2/supporting_documents/CKD-data-info-questions.md)
+2. Supporting documention: [CKD-data-info-questions.md](https://github.com/anjali-deshpande-hub/chronic_kidney_disease/blob/team-project-2/supporting_documents/CKD-data-info-questions.md)
 
-3. [README file](https://github.com/adithya28/team_project/blob/team-project-2/README.project-2.md)
+3. [README file](https://github.com/anjali-deshpande-hub/chronic_kidney_disease/blob/team-project-2/README.project-2.md)
 
 4. Video presentation of each team member:
 
-    * Kateryna Skoropad - [https://drive.google.com/file/d/1v--YIa6I26N-a73_3U39JXSkI-QujfeI/view?usp=sharing&t=3]
     * Anjali Deshpande - [https://drive.google.com/file/d/1knOunc6L4hgX6N9rDQnQfWnoZH4wF757/view?usp=drive_link]
+    * Kateryna Skoropad - [https://drive.google.com/file/d/1v--YIa6I26N-a73_3U39JXSkI-QujfeI/view?usp=sharing&t=3]
     * Zarrin Rasizadeh - [https://drive.google.com/file/d/1AO7-40nrwJsMU-rhD2tKt0ICxG2aGgZk/view?usp=sharing]
     * Adithya Hadadi - [https://drive.google.com/file/d/1xI7s4K_jB-_rngttjc371p8bQIpGr_0n/view?usp=sharing]
 
